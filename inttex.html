@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Universe</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(8px);
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      background: linear-gradient(90deg, #ff6b6b, #ffb347);
+      -webkit-background-clip: text;
+      color: transparent;
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 5px #ff6b6b;
+      }
+
+      to {
+        text-shadow: 0 0 20px #ffb347;
+      }
+    }
+
+    nav {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    #searchBox,
+    #filterCategory {
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      font-size: 14px;
+      flex: 1;
+      min-width: 150px;
+    }
+
+    .anime-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      padding: 15px;
+    }
+
+    .anime-card {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      padding: 12px;
+      text-align: center;
+      backdrop-filter: blur(5px);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: fadeUp 1s ease forwards;
+      max-width: 100%;
+    }
+
+    .anime-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 20px rgba(255, 179, 71, 0.6);
+    }
+
+    .anime-card img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .anime-info {
+      margin: 8px 0;
+      font-size: 14px;
+    }
+
+    button {
+      background: linear-gradient(45deg, #ff6b6b, #ffb347);
+      border: none;
+      padding: 8px 12px;
+      border-radius: 10px;
+      cursor: pointer;
+      color: #fff;
+      transition: background 0.3s ease;
+      font-size: 14px;
+    }
+
+    button:hover {
+      background: linear-gradient(45deg, #ffb347, #ff6b6b);
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="logo">✨ Anime Universe ✨</h1>
+    <nav>
+      <input type="text" id="searchBox" placeholder="ابحث عن أنمي...">
+      <select id="filterCategory">
+        <option value="all">كل التصنيفات</option>
+        <option value="action">أكشن</option>
+        <option value="romance">رومانسي</option>
+        <option value="comedy">كوميدي</option>
+        <option value="adventure">مغامرات</option>
+        <option value="fantasy">فانتازيا</option>
+      </select>
+    </nav>
+  </header>
+
+  <main>
+    <div id="animeContainer" class="anime-grid"></div>
+  </main>
+
+  <script>
+    let animeData = [];
+
+    fetch("anime_db.json")
+      .then(response => response.json())
+      .then(data => {
+        animeData = data;
+        displayAnime(animeData);
+      })
+      .catch(err => console.error("خطأ بتحميل ملف JSON:", err));
+
+    function displayAnime(animeList) {
+      const container = document.getElementById("animeContainer");
+      container.innerHTML = "";
+
+      animeList.forEach(anime => {
+        const card = document.createElement("div");
+        card.className = "anime-card";
+
+        card.innerHTML = `
+          <img src="${anime.image}" alt="${anime.title}">
+          <div class="anime-info">
+            <h3>${anime.title}</h3>
+            <p>📅 ${anime.year}</p>
+            <p>🎭 ${anime.genre}</p>
+            <p>${anime.description}</p>
+          </div>
+          <button onclick="watchAnime('${anime.title}')">▶️ مشاهدة</button>
+        `;
+
+        container.appendChild(card);
+      });
+    }
+
+    function watchAnime(title) {
+      const query = encodeURIComponent(title + " anime trailer");
+      window.open(`https://www.youtube.com/results?search_query=${query}`, "_blank");
+    }
+
+    document.getElementById("searchBox").addEventListener("input", (e) => {
+      const query = e.target.value.toLowerCase();
+      const filtered = animeData.filter(a => a.title.toLowerCase().includes(query));
+      displayAnime(filtered);
+    });
+
+    document.getElementById("filterCategory").addEventListener("change", (e) => {
+      let filtered = animeData;
+      if (e.target.value !== "all") {
+        filtered = animeData.filter(a => a.genre.toLowerCase().includes(e.target.value));
+      }
+      displayAnime(filtered);
+    });
+  </script>
+</body>
+
+</html>

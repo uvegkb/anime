@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تسجيل دخول متحرك</title>
+<style>
+  * {margin:0; padding:0; box-sizing:border-box; font-family:sans-serif;}
+  html, body {
+    width: 100%;
+    height: 100%;
+    background: #0b0c10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  canvas {position: absolute; top: 0; left: 0; z-index: 1;}
+  .login-box {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    max-width: 350px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(12px);
+    border: 2px solid rgba(0,255,255,0.3);
+    box-shadow: 0 0 30px rgba(0,255,255,0.2);
+  }
+  .login-box h2 {color: #0ff; margin-bottom: 25px; font-size: 1.8rem;}
+  .login-box input {
+    width: 100%; padding: 14px; margin: 10px 0;
+    border: none; border-radius: 10px;
+    outline: none; background: rgba(255,255,255,0.1);
+    color: #fff; font-size: 16px;
+  }
+  .login-box input::placeholder {color:#bbb;}
+  .login-box button {
+    width: 100%; padding: 14px; margin-top: 15px;
+    border: none; border-radius: 10px;
+    background: #0ff; color: #000;
+    font-size: 18px; cursor: pointer;
+    transition: 0.3s;
+  }
+  .login-box button:hover {background: #0aa;}
+  @media (max-width: 400px) {
+    .login-box {padding: 30px 20px;}
+    .login-box h2 {font-size: 1.5rem;}
+    .login-box input, .login-box button {padding: 12px; font-size: 16px;}
+  }
+</style>
+</head>
+<body>
+
+<canvas id="bgCanvas"></canvas>
+
+<div class="login-box">
+  <h2>تسجيل الدخول</h2>
+  <input type="text" placeholder="اسم المستخدم">
+  <input type="password" placeholder="كلمة المرور">
+  <button id="loginBtn">دخول</button>
+</div>
+
+<script>
+const canvas = document.getElementById('bgCanvas');
+const ctx = canvas.getContext('2d');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+let mouse = {x: null, y: null};
+window.addEventListener('mousemove', e => { mouse.x = e.x; mouse.y = e.y; });
+
+class Particle {
+  constructor() {
+    this.x = Math.random() * canvas.width;
+    this.y = Math.random() * canvas.height;
+    this.radius = Math.random()*2+1;
+    this.speedX = (Math.random()-0.5)*0.5;
+    this.speedY = (Math.random()-0.5)*0.5;
+    this.color = 'rgba(0,255,255,0.7)';
+  }
+  update() {
+    this.x += this.speedX; this.y += this.speedY;
+    if(this.x < 0 || this.x > canvas.width) this.speedX*=-1;
+    if(this.y < 0 || this.y > canvas.height) this.speedY*=-1;
+  }
+  draw() {
+    ctx.beginPath();
+    ctx.arc(this.x,this.y,this.radius,0,Math.PI*2);
+    ctx.fillStyle=this.color;
+    ctx.shadowBlur = 10;
+    ctx.shadowColor = '#0ff';
+    ctx.fill();
+  }
+}
+
+const particles = [];
+for(let i=0;i<60;i++) particles.push(new Particle()); // خفف العدد للجوال
+
+function connect() {
+  for(let a=0;a<particles.length;a++){
+    for(let b=a;b<particles.length;b++){
+      let dx = particles[a].x - particles[b].x;
+      let dy = particles[a].y - particles[b].y;
+      let dist = Math.sqrt(dx*dx+dy*dy);
+      if(dist<80){ // قلل المسافة لخطوط أقل
+        ctx.beginPath();
+        ctx.strokeStyle = 'rgba(0,255,255,'+(1-dist/80)+')';
+        ctx.lineWidth = 1;
+        ctx.moveTo(particles[a].x,particles[a].y);
+        ctx.lineTo(particles[b].x,particles[b].y);
+        ctx.stroke();
+      }
+    }
+  }
+}
+
+function animate(){
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  particles.forEach(p=>{ p.update(); p.draw(); });
+  connect();
+  particles.forEach(p=>{
+    if(mouse.x && mouse.y){
+      let dx = p.x - mouse.x;
+      let dy = p.y - mouse.y;
+      let dist = Math.sqrt(dx*dx+dy*dy);
+      if(dist<100){ p.x -= dx*0.02; p.y -= dy*0.02; }
+    }
+  });
+  requestAnimationFrame(animate);
+}
+animate();
+
+window.addEventListener('resize', ()=> { canvas.width = window.innerWidth; canvas.height = window.innerHeight; });
+
+// تحويل المستخدم عند الضغط على الزر
+document.getElementById('loginBtn').addEventListener('click', ()=>{
+  window.location.href = 'pohto.html';
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>شخصيات الأنمي</title>
+  <style>
+    body {
+      background: #0b1020;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff4d4d, #ff9933);
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin: 20px;
+    }
+
+    .controls input, .controls select {
+      padding: 8px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background: #1c2333;
+      border-radius: 15px;
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(255, 100, 50, 0.6);
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+      color: #ffcc66;
+    }
+
+    .card p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>🌟 شخصيات الأنمي 🌟</header>
+
+<div class="controls">
+  <input type="text" id="search" placeholder="ابحث عن شخصية...">
+  <select id="filter">
+    <option value="all">الكل</option>
+    <option value="popular">الأكثر شهرة</option>
+    <option value="rating">الأعلى تقييم</option>
+  </select>
+</div>
+
+<div class="grid" id="characterGrid"></div>
+
+<script>
+let characters = [];
+
+async function loadCharacters() {
+  try {
+    const res = await fetch("chars.json"); // ← هنا ملفك الجاهز
+    characters = await res.json();
+    renderCharacters(characters);
+  } catch (err) {
+    console.error("خطأ في تحميل ملف الشخصيات:", err);
+  }
+}
+
+const grid = document.getElementById("characterGrid");
+const search = document.getElementById("search");
+const filter = document.getElementById("filter");
+
+function renderCharacters(data) {
+  grid.innerHTML = "";
+  data.forEach(c => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <img src="${c.image}" alt="${c.name}">
+      <h3>${c.name}</h3>
+      <p>من أنمي: ${c.anime}</p>
+      <p>التقييم: ⭐ ${c.rating}</p>
+      <p>الشهرة: 🔥 ${c.popularity}%</p>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+search.addEventListener("input", () => {
+  const value = search.value.toLowerCase();
+  renderCharacters(characters.filter(c => c.name.toLowerCase().includes(value)));
+});
+
+filter.addEventListener("change", () => {
+  let sorted = [...characters];
+  if (filter.value === "popular") {
+    sorted.sort((a,b) => b.popularity - a.popularity);
+  } else if (filter.value === "rating") {
+    sorted.sort((a,b) => b.rating - a.rating);
+  }
+  renderCharacters(sorted);
+});
+
+loadCharacters();
+</script>
+
+</body>
+</html>

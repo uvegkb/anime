@@ -1,0 +1,395 @@
+[
+  {
+    "id": 1,
+    "title": "Naruto Shippuden: Ultimate Ninja Storm 4",
+    "genre": "Fighting",
+    "description": "لعبة قتال تضم شخصيات من أنمي Naruto Shippuden.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2e/Naruto_Shippuden_Ultimate_Ninja_Storm_4_cover_art.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/naruto-shippuden-ultimate-ninja-storm-4"
+  },
+  {
+    "id": 2,
+    "title": "Dragon Ball FighterZ",
+    "genre": "Fighting",
+    "description": "لعبة قتال ثلاثية الأبعاد تضم شخصيات من أنمي Dragon Ball.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Dragon_Ball_FighterZ_cover_art.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/dragon-ball-fighterz"
+  },
+  {
+    "id": 3,
+    "title": "One Piece: Pirate Warriors 4",
+    "genre": "Action",
+    "description": "لعبة أكشن تعتمد على أسلوب Musou وتضم شخصيات من أنمي One Piece.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2f/One_Piece_Pirate_Warriors_4_cover_art.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/one-piece-pirate-warriors-4"
+  },
+  {
+    "id": 4,
+    "title": "Attack on Titan 2",
+    "genre": "Action",
+    "description": "لعبة أكشن تتيح للاعبين محاربة العمالقة باستخدام أسلوب القتال الفريد.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/5b/Attack_on_Titan_2_cover_art.jpg",
+    "play_link": "https://www.koeitecmoamerica.com/attackontitan2/"
+  },
+  {
+    "id": 5,
+    "title": "My Hero One’s Justice",
+    "genre": "Fighting",
+    "description": "لعبة قتال لشخصيات أنمي My Hero Academia.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/53/My_Hero_One%27s_Justice_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/my-hero-ones-justice"
+  },
+  {
+    "id": 6,
+    "title": "Demon Slayer: Kimetsu no Yaiba – The Hinokami Chronicles",
+    "genre": "Action",
+    "description": "لعبة أكشن تتيح للاعبين محاربة الشياطين بشخصيات من أنمي Demon Slayer.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/Demon_Slayer_Kimetsu_no_Yaiba_The_Hinokami_Chronicles_cover_art.jpg",
+    "play_link": "https://www.seganet.com/demonslayer"
+  },
+  {
+    "id": 7,
+    "title": "JoJo's Bizarre Adventure: Eyes of Heaven",
+    "genre": "Fighting",
+    "description": "لعبة قتال تضم شخصيات من أنمي JoJo's Bizarre Adventure.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1e/JoJo%27s_Bizarre_Adventure_Eyes_of_Heaven_cover_art.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/jojos-bizarre-adventure-eyes-of-heaven"
+  },
+  {
+    "id": 8,
+    "title": "Naruto Shippuden: Ultimate Ninja Storm 3",
+    "genre": "Fighting",
+    "description": "لعبة قتال تضم شخصيات من أنمي Naruto Shippuden.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Naruto_Shippuden_Ultimate_Ninja_Storm_3_cover_art.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/naruto-shippuden-ultimate-ninja-storm-3"
+  },
+  {
+    "id": 9,
+    "title": "Bleach: Brave Souls",
+    "genre": "Action",
+    "description": "لعبة أكشن تضم شخصيات من أنمي Bleach.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0e/Bleach_Brave_Souls_cover_art.jpg",
+    "play_link": "https://www.bleach-bravesouls.com/"
+  },
+  {
+    "id": 10,
+    "title": "Sword Art Online: Hollow Realization",
+    "genre": "RPG",
+    "description": "لعبة تقمص أدوار تتيح للاعبين استكشاف عالم Sword Art Online.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/3e/Sword_Art_Online_Hollow_Realization_cover_art.jpg",
+    "play_link": "https://saohr.bn-ent.net/"
+  },
+  {
+    "id": 11,
+    "title": "Persona 5 Strikers",
+    "genre": "Action RPG",
+    "description": "لعبة أكشن تقمص أدوار تتابع مغامرات شخصيات Persona 5.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Persona_5_Strikers_cover_art.jpg",
+    "play_link": "https://atlus.com/p5s/"
+  },
+  {
+    "id": 12,
+    "title": "Dragon Ball Z: Kakarot",
+    "genre": "Action RPG",
+    "description": "لعبة تقمص أدوار تتيح للاعبين تجربة مغامرات Goku في عالم Dragon Ball.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2b/Dragon_Ball_Z_Kakarot_cover_art.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/dragon-ball-z-kakarot"
+  },
+  {
+    "id": 13,
+    "title": "One Piece: World Seeker",
+    "genre": "Action",
+    "description": "لعبة أكشن تتيح للاعبين استكشاف عالم One Piece.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/One_Piece_World_Seeker_cover_art.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/one-piece-world-seeker"
+  },
+  {
+    "id": 14,
+    "title": "Attack on Titan: Wings of Freedom",
+    "genre": "Action",
+    "description": "لعبة أكشن تتيح للاعبين محاربة العمالقة باستخدام أسلوب القتال الفريد.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/5b/Attack_on_Titan_Wings_of_Freedom_cover_art.jpg",
+    "play_link": "https://www.koeitecmoamerica.com/attackontitan/"
+  },
+  {
+    "id": 15,
+    "title": "My Hero One’s Justice 2",
+    "genre": "Fighting",
+    "description": "لعبة قتال تضم شخصيات من أنمي My Hero Academia.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4d/My_Hero_One%27s_Justice_2_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/my-hero-ones-justice-2"
+  },
+  {
+    "id": 16,
+    "title": "Demon Slayer: Kimetsu no Yaiba – The Hinokami Chronicles 2",
+    "genre": "Action",
+    "description": "الجزء الثاني من لعبة Demon Slayer: Kimetsu no Yaiba – The Hinokami Chronicles.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/Demon_Slayer_Kimetsu_no_Yaiba_The_Hinokami_Chronicles_2_cover_art.jpg",
+    "play_link": "https://www.seganet.com/demonslayer2"
+  },
+  {
+    "id": 17,
+    "title": "JoJo's Bizarre Adventure: All-Star Battle R",
+    "genre": "Fighting",
+    "description": "لعبة قتال تضم شخصيات من أنمي JoJo's Bizarre Adventure.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/JoJo%27s_Bizarre_Adventure_All-Star_Battle_R_cover_art.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/jojos-bizarre-adventure-all-star-battle-r"
+  },
+  {
+    "id": 18,
+    "title": "Naruto Shippuden: Ultimate Ninja Storm Generations",
+    "genre": "Fighting",
+    "description": "لعبة قتال تضم شخصيات من أنمي Naruto Shippuden.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4e/Naruto_Shippuden_Ultimate_Ninja_Storm_Generations_cover_art.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/naruto-shippuden-ultimate-ninja-storm-generations"
+  },
+  {
+    "id": 19,
+    "title": "Bleach: Soul Resurrección",
+    "genre": "Action",
+    "description": "لعبة أكشن تضم شخصيات من أنمي Bleach.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2d/Bleach_Soul_Resurrecci%C3%B3n_cover_art.jpg",
+    "play_link": "https://www.bleach-soulresurrection.com/"
+  },
+    {
+    "id": 21,
+    "title": "Sword Art Online: Fatal Bullet",
+    "genre": "Shooter RPG",
+    "description": "لعبة إطلاق نار وتقمص أدوار تدور في عالم Sword Art Online.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/5d/Sword_Art_Online_Fatal_Bullet_cover.jpg",
+    "play_link": "https://sao.fatalbullet.bn-ent.net/"
+  },
+  {
+    "id": 22,
+    "title": "Persona 5 Royal",
+    "genre": "RPG",
+    "description": "لعبة تقمص أدوار تحكي مغامرات Phantom Thieves.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/30/Persona_5_Royal_cover.jpg",
+    "play_link": "https://atlus.com/p5r/"
+  },
+  {
+    "id": 23,
+    "title": "Dragon Ball Xenoverse 2",
+    "genre": "Action RPG",
+    "description": "لعبة تقمص أدوار وأكشن تضم شخصيات Dragon Ball مع إمكانية تعديل الشخصيات.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f4/Dragon_Ball_Xenoverse_2_cover_art.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2"
+  },
+  {
+    "id": 24,
+    "title": "Tokyo Ghoul:re Call to Exist",
+    "genre": "Action",
+    "description": "لعبة أكشن تعتمد على شخصيات وأحداث أنمي Tokyo Ghoul.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/c5/Tokyo_Ghoul_re_Call_to_Exist_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/tokyo-ghoul-re-call-to-exist"
+  },
+  {
+    "id": 25,
+    "title": "One Punch Man: A Hero Nobody Knows",
+    "genre": "Fighting",
+    "description": "لعبة قتال تضم شخصيات من أنمي One Punch Man.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/33/One_Punch_Man_A_Hero_Nobody_Knows_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/one-punch-man-a-hero-nobody-knows"
+  },
+  {
+    "id": 26,
+    "title": "My Hero Ultra Rumble",
+    "genre": "Battle Royale",
+    "description": "لعبة باتل رويال تضم شخصيات من أنمي My Hero Academia.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/55/My_Hero_Ultra_Rumble_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/my-hero-ultra-rumble"
+  },
+  {
+    "id": 27,
+    "title": "Dragon Ball Z: Budokai Tenkaichi 3",
+    "genre": "Fighting",
+    "description": "لعبة قتال كلاسيكية ثلاثية الأبعاد لشخصيات Dragon Ball Z.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/Dragon_Ball_Z_Budokai_Tenkaichi_3_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/dragon-ball-z-budokai-tenkaichi-3"
+  },
+  {
+    "id": 28,
+    "title": "Naruto: Ultimate Ninja Storm 2",
+    "genre": "Fighting",
+    "description": "لعبة قتال تضم شخصيات من أنمي Naruto Shippuden.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/8b/Naruto_Ultimate_Ninja_Storm_2_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/naruto-ultimate-ninja-storm-2"
+  },
+  {
+    "id": 29,
+    "title": "JoJo's Bizarre Adventure: All-Star Battle",
+    "genre": "Fighting",
+    "description": "لعبة قتال تضم شخصيات من أنمي JoJo's Bizarre Adventure.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/dc/JoJo%27s_Bizarre_Adventure_All-Star_Battle_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/jojos-bizarre-adventure-all-star-battle"
+  },
+  {
+    "id": 30,
+    "title": "One Piece: Pirate Warriors 3",
+    "genre": "Action",
+    "description": "لعبة أكشن تعتمد على أسلوب Musou وتضم شخصيات من أنمي One Piece.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/3c/One_Piece_Pirate_Warriors_3_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/one-piece-pirate-warriors-3"
+  },
+  {
+    "id": 31,
+    "title": "Bleach: Heat the Soul 7",
+    "genre": "Fighting",
+    "description": "لعبة قتال لشخصيات أنمي Bleach.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2e/Bleach_Heat_the_Soul_7_cover.jpg",
+    "play_link": "https://www.bleach-heatsoul.com/"
+  },
+  {
+    "id": 32,
+    "title": "Sword Art Online: Lost Song",
+    "genre": "RPG",
+    "description": "لعبة تقمص أدوار تتيح للاعبين استكشاف عالم Sword Art Online.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Sword_Art_Online_Lost_Song_cover.jpg",
+    "play_link": "https://sao.lostsong.bn-ent.net/"
+  },
+  {
+    "id": 33,
+    "title": "Dragon Ball Xenoverse",
+    "genre": "Action RPG",
+    "description": "لعبة تقمص أدوار وأكشن تضم شخصيات Dragon Ball مع إمكانية تعديل الشخصيات.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Dragon_Ball_Xenoverse_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse"
+  },
+  {
+    "id": 34,
+    "title": "Naruto Shippuden: Ultimate Ninja Storm Revolution",
+    "genre": "Fighting",
+    "description": "لعبة قتال تضم شخصيات من أنمي Naruto Shippuden.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/7f/Naruto_Shippuden_Ultimate_Ninja_Storm_Revolution_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/naruto-shippuden-ultimate-ninja-storm-revolution"
+  },
+  {
+    "id": 35,
+    "title": "One Piece: Burning Blood",
+    "genre": "Fighting",
+    "description": "لعبة قتال تضم شخصيات من أنمي One Piece.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/5d/One_Piece_Burning_Blood_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/one-piece-burning-blood"
+  },
+  {
+    "id": 36,
+    "title": "My Hero Academia: Battle for All",
+    "genre": "Fighting",
+    "description": "لعبة قتال لشخصيات أنمي My Hero Academia.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/6d/My_Hero_Academia_Battle_for_All_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/my-hero-academia-battle-for-all"
+  },
+  {
+    "id": 37,
+    "title": "Demon Slayer: Kimetsu no Yaiba – The Hinokami Chronicles (PC)",
+    "genre": "Action",
+    "description": "نسخة الكمبيوتر للعبة أكشن Demon Slayer.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/7a/Demon_Slayer_Hinokami_PC_cover.jpg",
+    "play_link": "https://store.steampowered.com/app/1413100/Demon_Slayer_The_Hinokami_Chronicles/"
+  },
+  {
+    "id": 38,
+    "title": "JoJo's Bizarre Adventure: Phantom Blood",
+    "genre": "Fighting",
+    "description": "لعبة قتال لشخصيات أنمي JoJo's Bizarre Adventure.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1a/JoJo_Phantom_Blood_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/jojos-bizarre-adventure-phantom-blood"
+  },
+  {
+    "id": 39,
+    "title": "Sword Art Online: Alicization Lycoris",
+    "genre": "RPG",
+    "description": "لعبة تقمص أدوار تدور أحداثها في عالم Alicization.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/45/Sword_Art_Online_Alicization_Lycoris_cover.jpg",
+    "play_link": "https://saoalicization.bn-ent.net/"
+  },
+  {
+    "id": 40,
+    "title": "Dragon Ball: Raging Blast 2",
+    "genre": "Fighting",
+    "description": "لعبة قتال ثلاثية الأبعاد لشخصيات Dragon Ball.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/28/Dragon_Ball_Raging_Blast_2_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/dragon-ball-raging-blast-2"
+  },
+  {
+    "id": 41,
+    "title": "Naruto Shippuden: Ultimate Ninja Storm",
+    "genre": "Fighting",
+    "description": "اللعبة الأصلية ضمن سلسلة Ultimate Ninja Storm.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/38/Naruto_Shippuden_Ultimate_Ninja_Storm_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/naruto-shippuden-ultimate-ninja-storm"
+  },
+  {
+    "id": 42,
+    "title": "One Piece: Grand Battle! Rush",
+    "genre": "Fighting",
+    "description": "لعبة قتال لشخصيات أنمي One Piece.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/44/One_Piece_Grand_Battle_Rush_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/one-piece-grand-battle-rush"
+  },
+  {
+    "id": 43,
+    "title": "Bleach: The 3rd Phantom",
+    "genre": "Action",
+    "description": "لعبة أكشن لشخصيات أنمي Bleach.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/88/Bleach_The_3rd_Phantom_cover.jpg",
+    "play_link": "https://www.bleach-the3rdphantom.com/"
+  },
+  {
+    "id": 44,
+    "title": "Sword Art Online: Hollow Fragment",
+    "genre": "RPG",
+    "description": "لعبة تقمص أدوار في عالم Sword Art Online.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Sword_Art_Online_Hollow_Fragment_cover.jpg",
+    "play_link": "https://sao.hollowfragment.bn-ent.net/"
+  },
+  {
+    "id": 45,
+    "title": "Dragon Ball: Xenoverse 2 – Extra Pack",
+    "genre": "Action RPG",
+    "description": "إضافة توسعة للعبة Dragon Ball Xenoverse 2.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/3d/Dragon_Ball_Xenoverse_2_Extra_Pack_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2"
+  },
+  {
+    "id": 46,
+    "title": "Naruto: Clash of Ninja Revolution 3",
+    "genre": "Fighting",
+    "description": "لعبة قتال لشخصيات Naruto.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/31/Naruto_Clash_of_Ninja_Revolution_3_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/naruto-clash-of-ninja-revolution-3"
+  },
+  {
+    "id": 47,
+    "title": "One Piece: Pirate Warriors 2",
+    "genre": "Action",
+    "description": "لعبة أكشن ضمن سلسلة Pirate Warriors.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/5a/One_Piece_Pirate_Warriors_2_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/one-piece-pirate-warriors-2"
+  },
+  {
+    "id": 48,
+    "title": "Bleach: Heat the Soul 6",
+    "genre": "Fighting",
+    "description": "لعبة قتال لشخصيات أنمي Bleach.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/Bleach_Heat_the_Soul_6_cover.jpg",
+    "play_link": "https://www.bleach-heatsoul.com/"
+  },
+  {
+    "id": 49,
+    "title": "Sword Art Online: Re Hollow Fragment",
+    "genre": "RPG",
+    "description": "نسخة محسنة للعبة Hollow Fragment في عالم Sword Art Online.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/6c/Sword_Art_Online_Re_Hollow_Fragment_cover.jpg",
+    "play_link": "https://sao.rehollowfragment.bn-ent.net/"
+  },
+  {
+    "id": 50,
+    "title": "Dragon Ball Z: Budokai Tenkaichi",
+    "genre": "Fighting",
+    "description": "اللعبة الأصلية ثلاثية الأبعاد لشخصيات Dragon Ball Z.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/56/Dragon_Ball_Z_Budokai_Tenkaichi_cover.jpg",
+    "play_link": "https://www.bandainamcoent.com/games/dragon-ball-z-budokai-tenkaichi"
+  }
+
+]

@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>مزاجك أنمي — مع قاعدة 500 أنمي</title>
+  <meta name="description" content="Anime Universe هو موقع شامل لعشاق الأنمي! اكتشف أحدث وأشهر الأنميات، المانجا، شخصيات الأنمي، الألعاب، الأخبار، والمتجر الإلكتروني لجميع مستلزمات الأنمي. تصفح بسهولة مع واجهة أنميشن جذابة وتجربة مستخدم سلسة.">
+
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#7c3aed;--glass:rgba(255,255,255,0.04);--muted:rgba(255,255,255,0.6)}
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter, "Noto Kufi Arabic", Tahoma, Arial;color:#fff;background:linear-gradient(180deg,#071024 0%, #071028 60%)}
+    .wrap{max-width:980px;margin:28px auto;padding:18px}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+    header h1{font-size:1.4rem;margin:0}
+    header p{margin:0;color:var(--muted);font-size:0.95rem}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));border-radius:14px;padding:18px;margin-bottom:14px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    .question{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}
+    .option{padding:12px;border-radius:10px;background:var(--glass);text-align:center;cursor:pointer;user-select:none;border:1px solid rgba(255,255,255,0.03)}
+    .option.active{outline:3px solid rgba(124,58,237,0.18);transform:translateY(-3px)}
+    .btn-row{display:flex;gap:8px;justify-content:flex-start;margin-top:12px}
+    button{background:var(--accent);border:0;padding:10px 14px;border-radius:10px;color:#fff;font-weight:700;cursor:pointer}
+    button.secondary{background:transparent;border:1px solid rgba(255,255,255,0.06);font-weight:600}
+    .result{display:flex;gap:12px;align-items:center}
+    .poster{width:120px;height:160px;border-radius:10px;background:#122132;flex:0 0 120px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-weight:700}
+    .meta{flex:1}
+    .meta h2{margin:0 0 6px 0}
+    .meta p{margin:0;color:var(--muted)}
+    footer{color:var(--muted);text-align:center;font-size:0.9rem;margin-top:8px}
+    @media(max-width:600px){.wrap{padding:10px} .poster{width:95px;height:130px}}
+    .fade-in{animation:fadeIn .35s ease both}
+    @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+    .tag{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.02);font-weight:700}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>مزاجك أنمي 🎭</h1>
+        <p>انمي حسب مزاجك <strong>500 أنمي</strong> (اكثر من 500 انمي من كل التصنيفات في انتظارك)</p>
+      </div>                                                                                                       
+      <div style="text-align:left">
+        <p class="tag">جاهز:ابداء رحلتك</p>
+      </div>
+    </header>
+
+    <main>
+      <section id="step-1" class="card fade-in">
+        <h3>1. كيف حالك الآن؟</h3>
+        <div class="question" id="moods">
+          <div class="option" data-val="merry">مبسوط 😄</div>
+          <div class="option" data-val="bored">زهقان 😒</div>
+          <div class="option" data-val="sad">حزين 😢</div>
+          <div class="option" data-val="romance">بدّي رومانسية 💕</div>
+          <div class="option" data-val="excited">نشيط/إثارة ⚔️</div>
+        </div>
+      </section>
+
+      <section id="step-2" class="card fade-in">
+        <h3>2. تفضّل؟</h3>
+        <div class="question" id="lengths">
+          <div class="option" data-val="short">سريع (فيلم / أوفا)</div>
+          <div class="option" data-val="tv">سلسلة قصيرة (12 حلقة)</div>
+          <div class="option" data-val="long">سلسلة طويلة</div>
+        </div>
+      </section>
+
+      <section id="step-3" class="card fade-in">
+        <h3>3. مع من رح تتفرج؟</h3>
+        <div class="question" id="company">
+          <div class="option" data-val="alone">لوحدي</div>
+          <div class="option" data-val="friends">مع أصحاب</div>
+          <div class="option" data-val="date">مع حبيبة/حبيب 💘</div>
+        </div>
+      </section>
+
+      <div class="card">
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+          <div style="color:var(--muted)">اضغط "اقترح لي" لأقترح عليك أنمي بناءً على إجاباتك</div>
+          <div>
+            <button id="suggestBtn">اقترح لي</button>
+            <button class="secondary" id="randomBtn">اقترح عشوائي 🎲</button>
+          </div>
+        </div>
+      </div>
+
+      <section id="result" class="card" style="display:none">
+        <div class="result">
+          <div class="poster" id="poster">صورة</div>
+          <div class="meta">
+            <h2 id="title">عنوان الأنمي</h2>
+            <p id="tags">#رومانسي · #فيلم</p>
+            <p id="desc" style="margin-top:8px;color:var(--muted)">وصف قصير للأنمي سيظهر هنا.</p>
+            <div style="margin-top:10px;display:flex;gap:8px;align-items:center">
+              <button id="favBtn">اضف للمفضلة ☆</button>
+              <button id="shareBtn" class="secondary">انسخ رابط المشاركة 🔗</button>
+              <button id="openBtn" class="secondary">شاهد ملخص (يوتيوب)</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h4>الموقع قيد التطوير</h4>
+        <p style="color:var(--muted)">الملف <code>anime_db.json</code> موقع انمي حسب مزاجك اختيارك يهمنا</p>
+      </section>                                                                                                                           
+
+    </main>
+
+    <footer>
+      افضل موقع ليعطيك خيار انمي حسب مزاجك<strong>abdullah</strong> — json <code>/anime_mzagk</code>
+    </footer>                                                                                                                  
+  </div>
+
+<script>
+  const FALLBACK_DB = null;
+  let ANIME_DB = [];
+
+  function initFromData(data){
+    ANIME_DB = data;
+  }
+
+  async function loadDB(){
+    try{
+      const resp = await fetch('anime_db.json');
+      if(!resp.ok) throw new Error('fetch failed');
+      const data = await resp.json();
+      initFromData(data);
+      console.log('Loaded anime_db.json with', data.length, 'entries');
+    }catch(e){
+      console.warn('Failed to load anime_db.json; using embedded DB if available.', e);
+      if(FALLBACK_DB){
+        initFromData(FALLBACK_DB);
+      } else {
+        ANIME_DB = [];
+      }
+    }
+  }
+
+  const suggestBtn = document.getElementById('suggestBtn');
+  const randomBtn = document.getElementById('randomBtn');
+  const resultBox = document.getElementById('result');
+  const poster = document.getElementById('poster');
+  const titleEl = document.getElementById('title');
+  const tagsEl = document.getElementById('tags');
+  const descEl = document.getElementById('desc');
+  const shareBtn = document.getElementById('shareBtn');
+  const favBtn = document.getElementById('favBtn');
+  const openBtn = document.getElementById('openBtn');
+
+  const state = {mood:null,length:null,company:null};
+
+  document.querySelectorAll('.option').forEach(el=>{
+    el.addEventListener('click',()=>{
+      const group = el.parentElement.id;
+      el.parentElement.querySelectorAll('.option').forEach(o=>o.classList.remove('active'));
+      el.classList.add('active');
+      const val = el.dataset.val;
+      if(group === 'moods') state.mood = val;
+      if(group === 'lengths') state.length = val;
+      if(group === 'company') state.company = val;
+    });
+  });
+
+  function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]] } }
+
+  function pickAnime(filterFn){
+    const pool = ANIME_DB.filter(filterFn);
+    if(pool.length === 0) return null;
+    shuffle(pool);
+    return pool[0];
+  }
+
+  function suggest(){
+    if(!state.mood || !state.length || !state.company){
+      alert('يبدو أنك لم تختر كل الأسئلة — اختر خياراً واحداً في كل قسم.');
+      return;
+    }
+    const moodMap = {
+      merry:['mellow','romance'],
+      bored:['tv','short'],
+      sad:['sad','drama'],
+      romance:['romance'],
+      excited:['action','excited']
+    };
+    const wanted = new Set();
+    (moodMap[state.mood]||[]).forEach(t=>wanted.add(t));
+    if(state.length === 'short') wanted.add('movie');
+    if(state.length === 'tv') wanted.add('tv');
+    if(state.company === 'date') wanted.add('date');
+    if(state.company === 'friends') wanted.add('action');
+    const result = pickAnime(a=>{
+      for(let t of a.tags){ if(wanted.has(t)) return true; }
+      if(state.length === 'short' && a.tags.includes('movie')) return true;
+      if(state.length === 'tv' && a.tags.includes('tv')) return true;
+      return false;
+    }) || pickAnime(()=>true);
+    showResult(result);
+    pushURL(result?.id);
+  }
+
+  function suggestRandom(){
+    if(ANIME_DB.length===0){ alert('قاعدة البيانات لم تُحمّل بعد. افتح الملف من خادم محلي أو ارفع على استضافة.'); return; }
+    const r = ANIME_DB[Math.floor(Math.random()*ANIME_DB.length)];
+    showResult(r);                                                                                                               
+    pushURL(r.id);
+  }
+
+  function showResult(a){
+    if(!a) return;
+    resultBox.style.display = 'block';
+    titleEl.textContent = a.title;
+    tagsEl.textContent = a.tags.map(t=>`#${t}`).join(' · ');
+    descEl.textContent = a.desc;
+    poster.textContent = a.title.slice(0,12);
+    const favs = getFavs();
+    favBtn.textContent = favs.includes(a.id) ? 'حذف من المفضلة ★' : 'اضف للمفضلة ☆';
+    openBtn.onclick = ()=>{
+      const q = encodeURIComponent(a.title + ' trailer');
+      window.open('https://www.youtube.com/results?search_query='+q, '_blank');
+    }
+    shareBtn.onclick = ()=>{ copyToClipboard(window.location.href); alert('رابط المشاركة نُسخ!'); }
+    favBtn.onclick = ()=>{ toggleFav(a.id); favBtn.textContent = getFavs().includes(a.id) ? 'حذف من المفضلة ★' : 'اضف للمفضلة ☆'; }
+  }
+
+  function pushURL(id){
+    if(!id) return;
+    const u = new URL(window.location);
+    u.searchParams.set('result', id);
+    window.history.replaceState({}, '', u);
+  }
+
+  function readURL(){
+    const u = new URL(window.location);
+    const rid = parseInt(u.searchParams.get('result'));
+    if(rid){
+      const found = ANIME_DB.find(x=>x.id===rid);
+      if(found) showResult(found);
+    }
+  }
+
+  function toggleFav(id){
+    const favs = getFavs();
+    if(favs.includes(id)){ const idx = favs.indexOf(id); favs.splice(idx,1); } else favs.push(id);
+    localStorage.setItem('myAnimeFavs', JSON.stringify(favs));
+  }
+  function getFavs(){ try{ return JSON.parse(localStorage.getItem('myAnimeFavs')||'[]'); }catch(e){return []} }
+  function copyToClipboard(t){ navigator.clipboard?.writeText(t).catch(()=>{ const ta = document.createElement('textarea'); ta.value=t; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); }); }
+
+  loadDB().then(()=>{ readURL(); });
+
+  suggestBtn.addEventListener('click',suggest);
+  randomBtn.addEventListener('click',suggestRandom);
+  document.addEventListener('keydown',e=>{ if(e.key==='Enter') suggest(); });
+
+</script>
+</body>
+</html>

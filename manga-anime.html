@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manga Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: radial-gradient(1200px 600px at 10% 10%, rgba(123, 97, 255, 0.06), transparent),
+                  radial-gradient(800px 400px at 90% 90%, rgba(255, 107, 107, 0.04), transparent),
+                  #0b1020;
+      color: #e6eef8;
+    }
+
+    /* 🔹 شريط التنقل */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(8px);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      padding: 8px 15px;
+      border-radius: 8px;
+      transition: 0.3s;
+      background: linear-gradient(135deg, #ff6b6b, #7b61ff);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    nav a:hover {
+      background: linear-gradient(135deg, #ffb347, #ff6b6b);
+      -webkit-background-clip: text;
+      color: transparent;
+      text-shadow: 0 0 8px rgba(255, 179, 71, 0.7);
+    }
+
+    .header {
+      text-align: center;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+      background: linear-gradient(135deg, #ff6b6b, #7b61ff);
+      border-radius: 0 0 20px 20px;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .controls input,
+    .controls select {
+      padding: 10px;
+      border-radius: 12px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      background: #1a1f33;
+      color: #fff;
+      flex: 1;
+      min-width: 150px;
+    }
+
+    .manga-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .manga-card {
+      background: #1a1f33;
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      max-width: 100%;
+    }
+
+    .manga-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(123, 97, 255, 0.5);
+    }
+
+    .manga-card img {
+      width: 100%;
+      max-height: 220px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 10px;
+    }
+
+    .manga-info h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #ffb347;
+    }
+
+    .manga-info p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    .manga-card button {
+      margin-top: 10px;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #ff6b6b, #7b61ff);
+      color: white;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background 0.3s;
+    }
+
+    .manga-card button:hover {
+      background: linear-gradient(135deg, #7b61ff, #ff6b6b);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔹 شريط التنقل -->
+  <nav>
+    <a href="tesla.html">🏠 Home</a>
+    <a href="inttex.html">🎬 Anime</a>
+    <a href="manga-anime.html">📖 Manga</a>
+    <a href="shop.html">🛒 Shop</a>
+    <a href="news.html">The news</a>
+    <a href="game.html">game</a>
+    <a href="taqemm.html">The evaluations</a>
+    <a href="index.html">Choosing a random anime</a>
+
+  </nav>
+
+  <div class="header">📖 MANGA</div>
+
+  <div class="controls">
+    <input type="text" id="searchBox" placeholder="ابحث عن مانجا...">
+    <select id="filterCategory">
+      <option value="all">كل التصنيفات</option>
+      <option value="action">أكشن</option>
+      <option value="adventure">مغامرة</option>
+      <option value="romance">رومانسي</option>
+      <option value="comedy">كوميدي</option>
+      <option value="fantasy">فانتازيا</option>
+      <option value="shounen">شونين</option>
+    </select>
+  </div>
+
+  <div class="manga-container" id="mangaContainer"></div>
+
+  <script>
+    let mangaData = [];
+
+    fetch("manga-anime.json")
+      .then(response => response.json())
+      .then(data => {
+        mangaData = data;
+        displayManga(mangaData);
+      })
+      .catch(err => console.error("خطأ بتحميل ملف JSON:", err));
+
+    function displayManga(list) {
+      const container = document.getElementById("mangaContainer");
+      container.innerHTML = "";
+
+      list.forEach(manga => {
+        const card = document.createElement("div");
+        card.className = "manga-card";
+
+        card.innerHTML = `
+          <img src="${manga.image}" alt="${manga.title}">
+          <div class="manga-info">
+            <h3>${manga.title}</h3>
+            <p>📅 ${manga.year}</p>
+            <p>🎭 ${manga.genre}</p>
+            <p>${manga.description}</p>
+          </div>
+          <button onclick="readManga('${manga.title}')">📖 قراءة</button>
+        `;
+
+        container.appendChild(card);
+      });
+    }
+
+    function readManga(title) {
+      const query = encodeURIComponent(title + " manga online");
+      window.open(`https://www.google.com/search?q=${query}`, "_blank");
+    }
+
+    document.getElementById("searchBox").addEventListener("input", (e) => {
+      const query = e.target.value.toLowerCase();
+      const filtered = mangaData.filter(m => m.title.toLowerCase().includes(query));
+      displayManga(filtered);
+    });
+
+    document.getElementById("filterCategory").addEventListener("change", (e) => {
+      let filtered = mangaData;
+      if (e.target.value !== "all") {
+        filtered = mangaData.filter(m => m.genre.toLowerCase().includes(e.target.value));
+      }
+      displayManga(filtered);
+    });
+  </script>
+
+</body>
+</html>

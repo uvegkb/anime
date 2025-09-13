@@ -1,0 +1,3156 @@
+[
+  {
+    "id": 1,
+    "title": "Attack on Titan",
+    "tags": ["tv", "action"],
+    "desc": "وصف مختصر لـAttack on Titan — أنمي مشهور يستحق المشاهدة."
+  },
+  {
+    "id": 2,
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "tags": ["tv", "action"],
+    "desc": "وصف مختصر لـDemon Slayer: Kimetsu no Yaiba — أنمي مشهور يستحق المشاهدة."
+  },
+  {
+    "id": 3,
+    "title": "Naruto",
+    "tags": ["tv", "action"],
+    "desc": "وصف مختصر لـNaruto — أنمي مشهور يستحق المشاهدة."
+  },
+  {
+    "id": 4,
+    "title": "Naruto: Shippuden",
+    "tags": ["tv", "action"],
+    "desc": "وصف مختصر لـNaruto: Shippuden — أنمي مشهور يستحق المشاهدة."
+  },
+  {
+    "id": 5,
+    "title": "One Piece",
+    "tags": ["tv", "action"],
+    "desc": "وصف مختصر لـOne Piece — أنمي مشهور يستحق المشاهدة."
+  },
+  {
+    "id": 6,
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "tags": ["tv", "action"],
+    "desc": "وصف مختصر لـFullmetal Alchemist: Brotherhood — أنمي مشهور يستحق المشاهدة."
+  },
+  {
+    "id": 7,
+    "title": "Death Note",
+    "tags": ["tv", "thriller"],
+    "desc": "وصف مختصر لـDeath Note — أنمي مشهور يستحق المشاهدة."
+  },
+  {
+    "id": 8,
+    "title": "My Hero Academia",
+    "tags": ["tv", "action"],
+    "desc": "وصف مختصر لـMy Hero Academia — أنمي مشهور يستحق المشاهدة."
+  },
+  {
+    "id": 9,
+    "title": "Dragon Ball Z",
+    "tags": ["tv", "action"],
+    "desc": "وصف مختصر لـDragon Ball Z — أنمي مشهور يستحق المشاهدة."
+  },
+  {
+    "id": 10,
+    "title": "Dragon Ball Super",
+    "tags": ["tv", "action"],
+    "desc": "وصف مختصر لـDragon Ball Super — أنمي مشهور يستحق المشاهدة."
+  },
+  {
+    "id":11,
+    "title":"Black Clover",
+    "tags":["tv","action"],
+    "desc":"وصف مختصر لـBlack Clover — أنمي مليء بالسحر والمغامرات."                           
+
+  },
+  {
+    "id":12,
+    "title":"Jujutsu Kaisen",
+    "tags":["tv","action"],
+    "desc":"وصف مختصر لـJujutsu Kaisen — أنمي إثارة مليء بالقتال والأرواح الشريرة."                           
+
+  },
+  {
+    "id": 13,
+    "title": "Tokyo Revengers",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـTokyo Revengers — أنمي مليء بالسفر عبر الزمن والعصابات."
+  },
+  {
+    "id": 14,
+    "title": "Blue Exorcist",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـBlue Exorcist — أنمي عن مكافحة الشياطين والقدرات الخارقة."
+  },
+  {
+    "id": 15,
+    "title": "Black Butler",
+    "tags": ["tv", "mystery", "supernatural"],
+    "desc": "وصف مختصر لـBlack Butler — أنمي غامض مع لمسة خارقة للطبيعة."
+  },
+  {
+    "id": 16,
+    "title": "Sword Art Online",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـSword Art Online — أنمي تدور أحداثه في عوالم ألعاب الواقع الافتراضي."
+  },
+  {
+    "id": 17,
+    "title": "Fairy Tail",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـFairy Tail — أنمي مليء بالسحر والمغامرات والصداقة."
+  },
+  {
+    "id": 18,
+    "title": "One Punch Man",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـOne Punch Man — أنمي عن البطل الذي يهزم أي خصم بضربة واحدة."
+  },
+  {
+    "id": 19,
+    "title": "Hunter x Hunter",
+    "tags": ["tv", "action", "adventure"],
+    "desc": "وصف مختصر لـHunter x Hunter — أنمي مليء بالمغامرات والقتالات الذكية."
+  },
+  {
+    "id": 20,
+    "title": "Tokyo Ghoul",
+    "tags": ["tv", "action", "horror"],
+    "desc": "وصف مختصر لـTokyo Ghoul — أنمي مظلم عن صراع البشر مع المخلوقات القاتلة."
+  },
+  {
+    "id": 21,
+    "title": "Akame ga Kill!",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـAkame ga Kill! — أنمي مليء بالقتال والسياسة والدراما."
+  },
+  {
+    "id": 22,
+    "title": "Noragami",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـNoragami — أنمي عن إله بلا معبد ومغامراته مع البشر."
+  },
+  {
+    "id": 23,
+    "title": "Parasyte: The Maxim",
+    "tags": ["tv", "horror", "thriller"],
+    "desc": "وصف مختصر لـParasyte: The Maxim — أنمي مثير عن ديدان غريبة تسيطر على البشر."
+  },
+  {
+    "id": 24,
+    "title": "Bleach",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـBleach — أنمي عن الشينيغامي ومغامراته في عالم الأرواح."
+  },
+  {
+    "id": 25,
+    "title": "Akudama Drive",
+    "tags": ["tv", "action", "sci-fi"],
+    "desc": "وصف مختصر لـAkudama Drive — أنمي مستقبلي مليء بالقتال والجريمة."
+  },
+  {
+    "id": 26,
+    "title": "Re:Zero − Starting Life in Another World",
+    "tags": ["tv", "fantasy", "drama"],
+    "desc": "وصف مختصر لـRe:Zero — أنمي عن العودة بالزمن بعد الموت ومحاولة تغيير المصير."
+  },
+  {
+    "id": 27,
+    "title": "Vivy: Fluorite Eye’s Song",
+    "tags": ["tv", "action", "music"],
+    "desc": "وصف مختصر لـVivy — أنمي عن روبوت غنائي يحاول منع حرب مستقبلية."
+  },
+  {
+    "id": 28,
+    "title": "Mob Psycho 100",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـMob Psycho 100 — أنمي عن شاب يمتلك قدرات خارقة ويحاول التعايش معها."
+  },
+  {
+    "id": 29,
+    "title": "Akashic Records of Bastard Magic Instructor",
+    "tags": ["tv", "fantasy", "action"],
+    "desc": "وصف مختصر لـAkashic Records — أنمي عن مدرس سحري غامض ومغامراته."
+  },
+  {
+    "id": 30,
+    "title": "Hellsing Ultimate",
+    "tags": ["tv", "action", "horror"],
+    "desc": "وصف مختصر لـHellsing Ultimate — أنمي عن مصاص دماء يقاتل الأرواح الشريرة."
+  },
+  {
+    "id": 31,
+    "title": "The Seven Deadly Sins",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـThe Seven Deadly Sins — أنمي عن فرسان في عالم مليء بالسحر والمغامرات."
+  },
+  {
+    "id": 32,
+    "title": "Gintama",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـGintama — أنمي كوميدي مليء بالمغامرات والقتال الغريب."
+  },
+  {
+    "id": 33,
+    "title": "Noragami Aragoto",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـNoragami Aragoto — مواصلة مغامرات الإله ياتو مع الأرواح."
+  },
+  {
+    "id": 34,
+    "title": "Steins;Gate",
+    "tags": ["tv", "sci-fi", "thriller"],
+    "desc": "وصف مختصر لـSteins;Gate — أنمي عن السفر عبر الزمن وعواقبه."
+  },
+  {
+    "id": 35,
+    "title": "Erased",
+    "tags": ["tv", "thriller", "mystery"],
+    "desc": "وصف مختصر لـErased — أنمي عن العودة بالزمن لمنع جرائم وحوادث."
+  },
+  {
+    "id": 36,
+    "title": "Akame ga Kill! Zero",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـAkame ga Kill! Zero — قصة ما قبل أحداث Akame ga Kill!"
+  },
+  {
+    "id": 37,
+    "title": "KonoSuba: God’s Blessing on This Wonderful World!",
+    "tags": ["tv", "comedy", "fantasy"],
+    "desc": "وصف مختصر لـKonoSuba — أنمي كوميدي في عالم خيالي مليء بالمغامرات."
+  },
+  {
+    "id": 38,
+    "title": "Overlord",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـOverlord — أنمي عن لاعب يُحبس في عالم اللعبة ككيان قوي."
+  },
+  {
+    "id": 39,
+    "title": "The Rising of the Shield Hero",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـThe Rising of the Shield Hero — أنمي عن بطل دفاعي في عالم خيالي."
+  },
+  {
+    "id": 40,
+    "title": "No Game No Life",
+    "tags": ["tv", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـNo Game No Life — أنمي عن أُخوة محترفين في الألعاب يُنقلون لعالم آخر."
+  },
+  {
+    "id": 41,
+    "title": "That Time I Got Reincarnated as a Slime",
+    "tags": ["tv", "fantasy", "action"],
+    "desc": "وصف مختصر لـThat Time I Got Reincarnated as a Slime — أنمي عن شخص يولد من جديد كوحلقة."
+  },
+  {
+    "id": 42,
+    "title": "Log Horizon",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـLog Horizon — أنمي عن اللاعبين المحاصرين في لعبة MMORPG."
+  },
+  {
+    "id": 43,
+    "title": "Akudama Drive: Extra",
+    "tags": ["tv", "action", "sci-fi"],
+    "desc": "وصف مختصر لـAkudama Drive: Extra — حلقات إضافية عن مغامرات الأكوداما."
+  },
+  {
+    "id": 44,
+    "title": "The Devil is a Part-Timer!",
+    "tags": ["tv", "comedy", "fantasy"],
+    "desc": "وصف مختصر لـThe Devil is a Part-Timer! — أنمي كوميدي عن شيطان يعمل بدوام جزئي في عالم البشر."
+  },
+  {
+    "id": 45,
+    "title": "Highschool DxD",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـHighschool DxD — أنمي عن شياطين وملائكة وصراعهم في المدرسة."
+  },
+  {
+    "id": 46,
+    "title": "Black Bullet",
+    "tags": ["tv", "action", "sci-fi"],
+    "desc": "وصف مختصر لـBlack Bullet — أنمي عن مكافحة مخلوقات ملوثة في المستقبل."
+  },
+  {
+    "id": 47,
+    "title": "Darling in the Franxx",
+    "tags": ["tv", "action", "sci-fi"],
+    "desc": "وصف مختصر لـDarling in the Franxx — أنمي عن روبوتات عملاقة ومراهقين مقاتلين."
+  },
+  {
+    "id": 48,
+    "title": "Elfen Lied",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـElfen Lied — أنمي عن قدرات خارقة وصراعات الإنسان والدمية."
+  },
+  {
+    "id": 49,
+    "title": "Code Geass: Lelouch of the Rebellion",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـCode Geass — أنمي عن تمرد وقوة العقل."
+  },
+  {
+    "id": 50,
+    "title": "Code Geass: Lelouch of the Rebellion R2",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـCode Geass R2 — تتمة قصة Lelouch."
+  },
+  {
+    "id": 51,
+    "title": "Psycho-Pass",
+    "tags": ["tv", "action", "thriller"],
+    "desc": "وصف مختصر لـPsycho-Pass — أنمي عن مستقبلي يراقب حالة العقل والجريمة."
+  },
+  {
+    "id": 52,
+    "title": "Tokyo Revengers: Christmas Showdown",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـTokyo Revengers — موسم جديد لمغامرات السفر عبر الزمن."
+  },
+  {
+    "id": 53,
+    "title": "Angel Beats!",
+    "tags": ["tv", "comedy", "drama"],
+    "desc": "وصف مختصر لـAngel Beats! — أنمي عن الحياة بعد الموت والصداقة."
+  },
+  {
+    "id": 54,
+    "title": "Vivy: Fluorite Eye’s Song Season 2",
+    "tags": ["tv", "action", "music"],
+    "desc": "وصف مختصر لـVivy Season 2 — استمرار مغامرات روبوت غنائي."
+  },
+  {
+    "id": 55,
+    "title": "Akame ga Kill! Special",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـAkame ga Kill! Special — حلقات إضافية توضح الخلفية."
+  },
+  {
+    "id": 56,
+    "title": "Goblin Slayer",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـGoblin Slayer — أنمي عن صائد الغوبلن ومغامراته القاتلة."
+  },
+  {
+    "id": 57,
+    "title": "Dr. Stone",
+    "tags": ["tv", "action", "sci-fi"],
+    "desc": "وصف مختصر لـDr. Stone — أنمي عن إعادة بناء الحضارة باستخدام العلم."
+  },
+  {
+    "id": 58,
+    "title": "The World God Only Knows",
+    "tags": ["tv", "comedy", "romance"],
+    "desc": "وصف مختصر لـThe World God Only Knows — أنمي عن صيد القلوب وحل المشاكل العاطفية."
+  },
+  {
+    "id": 59,
+    "title": "Assassination Classroom",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـAssassination Classroom — أنمي عن معلم فضائي وطالبين يحاولون قتله."
+  },
+  {
+    "id": 60,
+    "title": "Toradora!",
+    "tags": ["tv", "romance", "comedy"],
+    "desc": "وصف مختصر لـToradora! — أنمي رومانسي كوميدي مليء بالمواقف المضحكة."
+  },
+  {
+    "id": 61,
+    "title": "Fate/Stay Night",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـFate/Stay Night — أنمي عن حرب على الكأس المقدسة."
+  },
+  {
+    "id": 62,
+    "title": "Fate/Zero",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـFate/Zero — أحداث ما قبل Fate/Stay Night."
+  },
+  {
+    "id": 63,
+    "title": "Fate/Stay Night: Unlimited Blade Works",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـFate UBW — نسخة جديدة من حرب الكأس المقدسة."
+  },
+  {
+    "id": 64,
+    "title": "Fate/Stay Night: Heaven’s Feel",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـFate Heaven’s Feel — أحداث السينما الخاصة بالحرب."
+  },
+  {
+    "id": 65,
+    "title": "Angel Sanctuary",
+    "tags": ["tv", "fantasy", "drama"],
+    "desc": "وصف مختصر لـAngel Sanctuary — أنمي عن الصراع بين الملائكة والإنسان."
+  },
+  {
+    "id": 66,
+    "title": "Soul Eater",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـSoul Eater — أنمي عن صيد الأرواح والشياطين."
+  },
+  {
+    "id": 67,
+    "title": "Bakuman",
+    "tags": ["tv", "comedy", "drama"],
+    "desc": "وصف مختصر لـBakuman — أنمي عن صراع الشباب لصناعة المانغا."
+  },
+  {
+    "id": 68,
+    "title": "Your Lie in April",
+    "tags": ["tv", "drama", "romance"],
+    "desc": "وصف مختصر لـYour Lie in April — أنمي درامي رومانسي عن الموسيقى والحياة."
+  },
+  {
+    "id": 69,
+    "title": "Clannad",
+    "tags": ["tv", "drama", "romance"],
+    "desc": "وصف مختصر لـClannad — أنمي رومانسي درامي مليء بالمشاعر."
+  },
+  {
+    "id": 70,
+    "title": "Clannad: After Story",
+    "tags": ["tv", "drama", "romance"],
+    "desc": "وصف مختصر لـClannad After Story — تتمة قصة Clannad."
+  },
+  {
+    "id": 71,
+    "title": "Angel Beats! Specials",
+    "tags": ["tv", "comedy", "drama"],
+    "desc": "وصف مختصر لـAngel Beats! Specials — حلقات إضافية مليئة بالقصص الجانبية."
+  },
+  {
+    "id": 72,
+    "title": "Anohana: The Flower We Saw That Day",
+    "tags": ["tv", "drama", "romance"],
+    "desc": "وصف مختصر لـAnohana — أنمي مؤثر عن الصداقة والخسارة."
+  },
+  {
+    "id": 73,
+    "title": "Kaguya-sama: Love is War",
+    "tags": ["tv", "comedy", "romance"],
+    "desc": "وصف مختصر لـKaguya-sama — أنمي كوميدي رومانسي عن حرب الحب."
+  },
+  {
+    "id": 74,
+    "title": "Kaguya-sama: Love is War Season 2",
+    "tags": ["tv", "comedy", "romance"],
+    "desc": "وصف مختصر لـKaguya-sama S2 — استمرار مغامرات الحب والمكائد."
+  },
+  {
+    "id": 75,
+    "title": "Kaguya-sama: Love is War Season 3",
+    "tags": ["tv", "comedy", "romance"],
+    "desc": "وصف مختصر لـKaguya-sama S3 — الموسم الأخير من الحرب الرومانسية."
+  },
+  {
+    "id": 76,
+    "title": "Love Live! School Idol Project",
+    "tags": ["tv", "music", "comedy"],
+    "desc": "وصف مختصر لـLove Live! — أنمي عن فرقة مدرسية ومنافسات الأغاني."
+  },
+  {
+    "id": 77,
+    "title": "Love Live! Sunshine!!",
+    "tags": ["tv", "music", "comedy"],
+    "desc": "وصف مختصر لـLove Live Sunshine — تتمة قصة الفرق الموسيقية المدرسية."
+  },
+  {
+    "id": 78,
+    "title": "Banana Fish",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـBanana Fish — أنمي عصابات ومؤامرات في نيويورك."
+  },
+  {
+    "id": 79,
+    "title": "Great Pretender",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـGreat Pretender — أنمي عن عمليات نصب دولية."
+  },
+  {
+    "id": 80,
+    "title": "The God of High School",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـThe God of High School — أنمي عن منافسات قتالية خارقة."
+  },
+  {
+    "id": 81,
+    "title": "Tower of God",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـTower of God — أنمي عن تسلق برج مليء بالتحديات."
+  },
+  {
+    "id": 82,
+    "title": "Black Clover: Sword of the Wizard King",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـBlack Clover Movie — تتمة مغامرات السحر والمقاتلين."
+  },
+  {
+    "id": 83,
+    "title": "Fire Force",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـFire Force — أنمي عن رجال إطفاء يملكون قدرات نارية لمحاربة الظواهر الغريبة."
+  },
+  {
+    "id": 84,
+    "title": "Blue Period",
+    "tags": ["tv", "drama", "slice of life"],
+    "desc": "وصف مختصر لـBlue Period — أنمي عن شاب يكتشف شغفه بالفن والرسم."
+  },
+  {
+    "id": 85,
+    "title": "Vivy: Fluorite Eye’s Song Specials",
+    "tags": ["tv", "action", "music"],
+    "desc": "وصف مختصر لـVivy Specials — حلقات جانبية لمغامرات الروبوت الغنائي."
+  },
+  {
+    "id": 86,
+    "title": "Baccano!",
+    "tags": ["tv", "action", "thriller"],
+    "desc": "وصف مختصر لـBaccano! — أنمي عصابات وإثارة تدور أحداثه في أمريكا القديمة."
+  },
+  {
+    "id": 87,
+    "title": "Durarara!!",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـDurarara!! — أنمي عن أحداث غامضة وشخصيات متعددة في مدينة إيكابوكو."
+  },
+  {
+    "id": 88,
+    "title": "Durarara!!x2 Shou",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـDurarara!!x2 Shou — الموسم الثاني لمغامرات إيكابوكو."
+  },
+  {
+    "id": 89,
+    "title": "Durarara!!x2 Ten",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـDurarara!!x2 Ten — الموسم الثالث مع المزيد من الأحداث الغامضة."
+  },
+  {
+    "id": 90,
+    "title": "Durarara!!x2 Ketsu",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـDurarara!!x2 Ketsu — الموسم الأخير مع نهاية القصة."
+  },
+  {
+    "id": 91,
+    "title": "Noragami: Aragoto Specials",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـNoragami Specials — حلقات إضافية لمغامرات ياتو."
+  },
+  {
+    "id": 92,
+    "title": "Paranoia Agent",
+    "tags": ["tv", "thriller", "mystery"],
+    "desc": "وصف مختصر لـParanoia Agent — أنمي نفسي وغامض مليء بالمواقف الغريبة."
+  },
+  {
+    "id": 93,
+    "title": "Angel Beats! The Last Operation",
+    "tags": ["tv", "comedy", "drama"],
+    "desc": "وصف مختصر لـAngel Beats! Last Operation — حلقات إضافية توضح بعض الأحداث."
+  },
+  {
+    "id": 94,
+    "title": "Made in Abyss",
+    "tags": ["tv", "adventure", "fantasy"],
+    "desc": "وصف مختصر لـMade in Abyss — أنمي عن مغامرة فتاة في حفرة غامضة مليئة بالمخلوقات."
+  },
+  {
+    "id": 95,
+    "title": "Made in Abyss: The Golden City of the Scorching Sun",
+    "tags": ["movie", "adventure", "fantasy"],
+    "desc": "وصف مختصر لـMade in Abyss Movie — تتمة قصة الرحلة في الهاوية."
+  },
+  {
+    "id": 96,
+    "title": "Saga of Tanya the Evil",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـSaga of Tanya — أنمي عن فتاة جندية قوية في عالم حروب سحرية."
+  },
+  {
+    "id": 97,
+    "title": "Black Bullet: Specials",
+    "tags": ["tv", "action", "sci-fi"],
+    "desc": "وصف مختصر لـBlack Bullet Specials — حلقات جانبية عن المستقبل الملوث."
+  },
+  {
+    "id": 98,
+    "title": "Re:Zero − Starting Life in Another World Season 2",
+    "tags": ["tv", "fantasy", "drama"],
+    "desc": "وصف مختصر لـRe:Zero S2 — استمرار محاولات Subaru لتغيير المصير."
+  },
+  {
+    "id": 99,
+    "title": "Re:Zero − Starting Life in Another World Season 2 Part 2",
+    "tags": ["tv", "fantasy", "drama"],
+    "desc": "وصف مختصر لـRe:Zero S2 Part 2 — الجزء الأخير من الموسم الثاني."
+  },
+  {
+    "id": 100,
+    "title": "The Ancient Magus’ Bride",
+    "tags": ["tv", "fantasy", "romance"],
+    "desc": "وصف مختصر لـThe Ancient Magus’ Bride — أنمي عن علاقة غريبة بين فتاة وساحر."
+  },
+  {
+    "id": 101,
+    "title": "The Ancient Magus’ Bride: The Boy from the West and the Knight of the Blue Storm",
+    "tags": ["movie", "fantasy", "romance"],
+    "desc": "وصف مختصر لـThe Ancient Magus’ Bride Movie — قصة جانبية ضمن عالم الساحر."
+  },
+  {
+    "id": 102,
+    "title": "The Ancient Magus’ Bride: Those Awaiting a Star",
+    "tags": ["movie", "fantasy", "romance"],
+    "desc": "وصف مختصر لـThe Ancient Magus’ Bride Movie 2 — تتمة القصة الجانبية."
+  },
+  {
+    "id": 103,
+    "title": "Higurashi: When They Cry",
+    "tags": ["tv", "horror", "mystery"],
+    "desc": "وصف مختصر لـHigurashi — أنمي رعب وغموض مليء بالمفاجآت."
+  },
+  {
+    "id": 104,
+    "title": "Higurashi: When They Cry – Kai",
+    "tags": ["tv", "horror", "mystery"],
+    "desc": "وصف مختصر لـHigurashi Kai — الموسم الثاني لتكشف الأسرار."
+  },
+  {
+    "id": 105,
+    "title": "Higurashi: When They Cry – Gou",
+    "tags": ["tv", "horror", "mystery"],
+    "desc": "وصف مختصر لـHigurashi Gou — إعادة سرد الأحداث بنظرة جديدة."
+  },
+  {
+    "id": 106,
+    "title": "Higurashi: When They Cry – Sotsu",
+    "tags": ["tv", "horror", "mystery"],
+    "desc": "وصف مختصر لـHigurashi Sotsu — الموسم الأخير يكشف الحقيقة كاملة."
+  },
+  {
+    "id": 107,
+    "title": "Shaman King (2021)",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـShaman King — إعادة إنتاج أنمي الشامان القديم."
+  },
+  {
+    "id": 108,
+    "title": "Shaman King Specials",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـShaman King Specials — حلقات جانبية عن الشامان."
+  },
+  {
+    "id": 109,
+    "title": "KonoSuba: Legend of Crimson",
+    "tags": ["movie", "comedy", "fantasy"],
+    "desc": "وصف مختصر لـKonoSuba Movie — مغامرة كوميدية جديدة لفريق المغامرين."
+  },
+  {
+    "id": 110,
+    "title": "Konosuba: God’s Blessing on This Wonderful World! Season 2",
+    "tags": ["tv", "comedy", "fantasy"],
+    "desc": "وصف مختصر لـKonoSuba S2 — الموسم الثاني مع مغامرات أكثر كوميدية."
+  },
+  {
+    "id": 111,
+    "title": "Konosuba: God’s Blessing on This Wonderful World! Season 3",
+    "tags": ["tv", "comedy", "fantasy"],
+    "desc": "وصف مختصر لـKonoSuba S3 — الموسم الأخير من المغامرة الكوميدية."
+  },
+  {
+    "id": 112,
+    "title": "KonoSuba: Extra Episode",
+    "tags": ["tv", "comedy", "fantasy"],
+    "desc": "وصف مختصر لـKonoSuba Extra — حلقات جانبية مضحكة."
+  },
+  {
+    "id": 113,
+    "title": "Steins;Gate 0",
+    "tags": ["tv", "sci-fi", "thriller"],
+    "desc": "وصف مختصر لـSteins;Gate 0 — أحداث بديلة بعد نهاية Steins;Gate."
+  },
+  {
+    "id": 114,
+    "title": "The Executioner and Her Way of Life",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـThe Executioner and Her Way of Life — أنمي عن صائدة للأبطال العابرين للعوالم."
+  },
+  {
+    "id": 115,
+    "title": "86",
+    "tags": ["tv", "action", "sci-fi"],
+    "desc": "وصف مختصر لـ86 — أنمي عن صراع البشر مع الآلات في المستقبل."
+  },
+  {
+    "id": 116,
+    "title": "86 Season 2",
+    "tags": ["tv", "action", "sci-fi"],
+    "desc": "وصف مختصر لـ86 S2 — استمرار الحرب مع الآلات."
+  },
+  {
+    "id": 117,
+    "title": "Shigofumi",
+    "tags": ["tv", "drama", "supernatural"],
+    "desc": "وصف مختصر لـShigofumi — أنمي عن رسائل الموتى وتأثيرها على الأحياء."
+  },
+  {
+    "id": 118,
+    "title": "Gosick",
+    "tags": ["tv", "mystery", "drama"],
+    "desc": "وصف مختصر لـGosick — أنمي غامض عن جرائم في مدرسة أوروبية."
+  },
+  {
+    "id": 119,
+    "title": "Stein;Gate Movie: Load Region of Déjà Vu",
+    "tags": ["movie", "sci-fi", "thriller"],
+    "desc": "وصف مختصر لـSteins;Gate Movie — فيلم يكمل قصة السفر عبر الزمن."
+  },
+  {
+    "id": 120,
+    "title": "Angel Beats! Re:Edit",
+    "tags": ["tv", "comedy", "drama"],
+    "desc": "وصف مختصر لـAngel Beats! Re:Edit — حلقات مختصرة مع إضافات مشوقة."
+  },
+  {
+    "id": 121,
+    "title": "Goblin Slayer: Goblin’s Crown",
+    "tags": ["movie", "action", "fantasy"],
+    "desc": "وصف مختصر لـGoblin Slayer Movie — تتمة مغامرات صائد الغوبلن."
+  },
+  {
+    "id": 122,
+    "title": "Your Name",
+    "tags": ["movie", "romance", "fantasy"],
+    "desc": "وصف مختصر لـYour Name — فيلم رومانسي وخيالي عن تبادل الأجساد."
+  },
+  {
+    "id": 123,
+    "title": "Weathering With You",
+    "tags": ["movie", "romance", "fantasy"],
+    "desc": "وصف مختصر لـWeathering With You — فيلم عن فتاة تتحكم بالطقس وحبها."
+  },
+  {
+    "id": 124,
+    "title": "A Silent Voice",
+    "tags": ["movie", "drama", "romance"],
+    "desc": "وصف مختصر لـA Silent Voice — فيلم عن الغفران والصداقة والحب."
+  },
+  {
+    "id": 125,
+    "title": "Vivy: Fluorite Eye’s Song Movie",
+    "tags": ["movie", "action", "music"],
+    "desc": "وصف مختصر لـVivy Movie — نسخة سينمائية لمغامرات Vivy."
+  },
+  {
+    "id": 126,
+    "title": "Attack on Titan: The Final Season Part 1",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـAttack on Titan Final Season — بداية المواسم الأخيرة."
+  },
+  {
+    "id": 127,
+    "title": "Attack on Titan: The Final Season Part 2",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـAttack on Titan Final Season Part 2 — استمرار الأحداث الحاسمة."
+  },
+  {
+    "id": 128,
+    "title": "Attack on Titan: The Final Season Part 3",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـAttack on Titan Final Season Part 3 — نهاية الملحمة."
+  },
+  {
+    "id": 129,
+    "title": "Demon Slayer: Kimetsu no Yaiba – Entertainment District Arc",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـDemon Slayer Entertainment District — مغامرة جديدة لشخصياتنا."
+  },
+  {
+    "id": 130,
+    "title": "Demon Slayer: Kimetsu no Yaiba – Swordsmith Village Arc",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـDemon Slayer Swordsmith Village — الموسم الجديد للقتال والمغامرات."
+  },
+  {
+    "id": 131,
+    "title": "Jujutsu Kaisen 0",
+    "tags": ["movie", "action", "fantasy"],
+    "desc": "وصف مختصر لـJujutsu Kaisen 0 — فيلم ما قبل أحداث الأنمي."
+  },
+  {
+    "id": 132,
+    "title": "Jujutsu Kaisen Season 2",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـJujutsu Kaisen S2 — الموسم الثاني من مغامرات يوجي وإيتادوري."
+  },
+  {
+    "id": 133,
+    "title": "One Punch Man",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـOne Punch Man — أنمي عن بطل يملك قوة خارقة ويهزم أي خصم بضربة واحدة."
+  },
+  {
+    "id": 134,
+    "title": "One Punch Man Season 2",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـOne Punch Man S2 — استمرار مغامرات سايتاما ومواجهته لأعداء جدد."
+  },
+  {
+    "id": 135,
+    "title": "Mob Psycho 100",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـMob Psycho 100 — أنمي عن شاب يمتلك قدرات نفسية خارقة ويحاول السيطرة عليها."
+  },
+  {
+    "id": 136,
+    "title": "Mob Psycho 100 II",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـMob Psycho 100 II — الموسم الثاني مع المزيد من المغامرات النفسية."
+  },
+  {
+    "id": 137,
+    "title": "Mob Psycho 100 III",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـMob Psycho 100 III — الموسم الثالث واختبار قدرات موب الحقيقية."
+  },
+  {
+    "id": 138,
+    "title": "Dragon Ball",
+    "tags": ["tv", "action", "adventure"],
+    "desc": "وصف مختصر لـDragon Ball — مغامرات غوكو منذ طفولته في البحث عن كرات التنين."
+  },
+  {
+    "id": 139,
+    "title": "Dragon Ball GT",
+    "tags": ["tv", "action", "adventure"],
+    "desc": "وصف مختصر لـDragon Ball GT — تتمة مغامرات غوكو وأصدقائه في مغامرات جديدة."
+  },
+  {
+    "id": 140,
+    "title": "Dragon Ball Super Movie: Broly",
+    "tags": ["movie", "action", "adventure"],
+    "desc": "وصف مختصر لـDragon Ball Super Broly — فيلم عن مواجهة غوكو ضد برولي الأسطوري."
+  },
+  {
+    "id": 141,
+    "title": "Bleach",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـBleach — أنمي عن صراع الشينيجامي مع الأرواح الشريرة."
+  },
+  {
+    "id": 142,
+    "title": "Bleach: Thousand-Year Blood War",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـBleach Blood War — الموسم النهائي لمعركة الحرب الألفية."
+  },
+  {
+    "id": 143,
+    "title": "Noragami",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـNoragami — مغامرات الإله ياتو في مساعدة البشر والأرواح."
+  },
+  {
+    "id": 144,
+    "title": "Noragami Aragoto",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـNoragami Aragoto — الموسم الثاني لمغامرات ياتو."
+  },
+  {
+    "id": 145,
+    "title": "Sword Art Online",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـSword Art Online — أنمي عن محاصرين في لعبة واقع افتراضي وقتال للبقاء."
+  },
+  {
+    "id": 146,
+    "title": "Sword Art Online II",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـSword Art Online II — الموسم الثاني مع تحديات جديدة."
+  },
+  {
+    "id": 147,
+    "title": "Sword Art Online: Alicization",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـSword Art Online Alicization — مغامرة جديدة لعالم Alicization."
+  },
+  {
+    "id": 148,
+    "title": "Sword Art Online: Alicization War of Underworld",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـSword Art Online War of Underworld — ختام مغامرات Alicization."
+  },
+  {
+    "id": 149,
+    "title": "Tokyo Revengers",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـTokyo Revengers — أنمي عن العودة بالزمن لتغيير الماضي وحماية الأصدقاء."
+  },
+  {
+    "id": 150,
+    "title": "Tokyo Revengers: Seiya Kessen",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـTokyo Revengers Special — حلقات إضافية لمغامرات تاقي ورفاقه."
+  },
+  {
+    "id": 151,
+    "title": "Your Lie in April: Specials",
+    "tags": ["tv", "drama", "romance"],
+    "desc": "وصف مختصر لـYour Lie in April Specials — حلقات جانبية لموسيقى ومواقف إضافية."
+  },
+  {
+    "id": 152,
+    "title": "Vivy: Fluorite Eye’s Song Season 1",
+    "tags": ["tv", "action", "music"],
+    "desc": "وصف مختصر لـVivy Season 1 — بداية مغامرات روبوت الغناء Vivy."
+  },
+  {
+    "id": 153,
+    "title": "Made in Abyss: Dawn of the Deep Soul",
+    "tags": ["movie", "adventure", "fantasy"],
+    "desc": "وصف مختصر لـMade in Abyss Movie — تتمة أحداث Abyss المليئة بالمغامرات."
+  },
+  {
+    "id": 154,
+    "title": "My Teen Romantic Comedy SNAFU",
+    "tags": ["tv", "comedy", "romance"],
+    "desc": "وصف مختصر لـOregairu — أنمي عن حياة المراهقين والمواقف الاجتماعية المعقدة."
+  },
+  {
+    "id": 155,
+    "title": "My Teen Romantic Comedy SNAFU Climax",
+    "tags": ["tv", "comedy", "romance"],
+    "desc": "وصف مختصر لـOregairu Climax — الموسم الأخير لحل الصراعات العاطفية."
+  },
+  {
+    "id": 156,
+    "title": "Ergo Proxy",
+    "tags": ["tv", "sci-fi", "thriller"],
+    "desc": "وصف مختصر لـErgo Proxy — أنمي غامض في عالم مستقبلي مليء بالأسرار."
+  },
+  {
+    "id": 157,
+    "title": "Akira",
+    "tags": ["movie", "action", "sci-fi"],
+    "desc": "وصف مختصر لـAkira — فيلم كلاسيكي عن المستقبل والمخاطر النووية."
+  },
+  {
+    "id": 158,
+    "title": "Cowboy Bebop",
+    "tags": ["tv", "action", "sci-fi"],
+    "desc": "وصف مختصر لـCowboy Bebop — أنمي مغامرات ومطاردات في الفضاء."
+  },
+  {
+    "id": 159,
+    "title": "Cowboy Bebop: The Movie",
+    "tags": ["movie", "action", "sci-fi"],
+    "desc": "وصف مختصر لـCowboy Bebop Movie — فيلم أحداثه داخل عالم Bebop."
+  },
+  {
+    "id": 160,
+    "title": "Neon Genesis Evangelion",
+    "tags": ["tv", "action", "mecha"],
+    "desc": "وصف مختصر لـNeon Genesis Evangelion — أنمي عن روبوتات عملاقة وصراعات نفسية."
+  },
+  {
+    "id": 161,
+    "title": "Neon Genesis Evangelion: The End of Evangelion",
+    "tags": ["movie", "action", "mecha"],
+    "desc": "وصف مختصر لـEnd of Evangelion — نهاية ملحمية للأنمي الأصلي."
+  },
+  {
+    "id": 162,
+    "title": "Revolutionary Girl Utena",
+    "tags": ["tv", "drama", "fantasy"],
+    "desc": "وصف مختصر لـUtena — أنمي عن فتاة تحاول تغيير العالم من خلال المبارزات."
+  },
+  {
+    "id": 163,
+    "title": "Serial Experiments Lain",
+    "tags": ["tv", "sci-fi", "thriller"],
+    "desc": "وصف مختصر لـLain — أنمي نفسي عن الهوية والواقع الرقمي."
+  },
+  {
+    "id": 164,
+    "title": "Made in Abyss: Specials",
+    "tags": ["tv", "adventure", "fantasy"],
+    "desc": "وصف مختصر لـMade in Abyss Specials — حلقات جانبية لتوضيح مغامرات Abyss."
+  },
+  {
+    "id": 165,
+    "title": "Gintama",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـGintama — أنمي كوميدي عن الساموراي والمغامرات الغريبة."
+  },
+  {
+    "id": 166,
+    "title": "Gintama’",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـGintama’ — الموسم الثاني لمغامرات غينتاما."
+  },
+  {
+    "id": 167,
+    "title": "Gintama: The Final",
+    "tags": ["movie", "action", "comedy"],
+    "desc": "وصف مختصر لـGintama Movie — نهاية مغامرات غينتاما."
+  },
+  {
+    "id": 168,
+    "title": "Beelzebub",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـBeelzebub — أنمي كوميدي عن طفل شيطاني وصراعاته."
+  },
+  {
+    "id": 169,
+    "title": "Beelzebub Specials",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـBeelzebub Specials — حلقات جانبية مضحكة."
+  },
+  {
+    "id": 170,
+    "title": "Black Lagoon",
+    "tags": ["tv", "action", "thriller"],
+    "desc": "وصف مختصر لـBlack Lagoon — أنمي عصابات ومغامرات عن مهربي الأسلحة."
+  },
+  {
+    "id": 171,
+    "title": "Black Lagoon: The Second Barrage",
+    "tags": ["tv", "action", "thriller"],
+    "desc": "وصف مختصر لـBlack Lagoon S2 — الموسم الثاني لمغامرات العصابات."
+  },
+  {
+    "id": 172,
+    "title": "Black Lagoon: Roberta’s Blood Trail",
+    "tags": ["tv", "action", "thriller"],
+    "desc": "وصف مختصر لـBlack Lagoon Movie — سلسلة أفلام لتتمة أحداث القصة."
+  },
+  {
+    "id": 173,
+    "title": "Hellsing",
+    "tags": ["tv", "action", "horror"],
+    "desc": "وصف مختصر لـHellsing — أنمي عن صائد مصاصي الدماء ومعركته معهم."
+  },
+  {
+    "id": 174,
+    "title": "Hellsing Ultimate",
+    "tags": ["tv", "action", "horror"],
+    "desc": "وصف مختصر لـHellsing Ultimate — نسخة موسعة ومكملة للقصة."
+  },
+  {
+    "id": 175,
+    "title": "Vivy: Fluorite Eye’s Song Specials",
+    "tags": ["tv", "action", "music"],
+    "desc": "وصف مختصر لـVivy Specials — حلقات إضافية لمغامرات Vivy الغنائية."
+  },
+  {
+    "id": 176,
+    "title": "No Game No Life: Zero",
+    "tags": ["movie", "fantasy", "action"],
+    "desc": "وصف مختصر لـNo Game No Life Movie — قصة ما قبل أحداث الأنمي الأصلي."
+  },
+  {
+    "id": 177,
+    "title": "Overlord II",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـOverlord II — الموسم الثاني لمغامرات الملك الأعظم."
+  },
+  {
+    "id": 178,
+    "title": "Overlord III",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـOverlord III — الموسم الثالث واستمرار المغامرات."
+  },
+  {
+    "id": 179,
+    "title": "Overlord IV",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـOverlord IV — الموسم الرابع واختتام رحلة Overlord."
+  },
+  {
+    "id": 180,
+    "title": "The God of High School: Specials",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـThe God of High School Specials — حلقات جانبية لأبطال القتال."
+  },
+  {
+    "id": 181,
+    "title": "Tower of God: Specials",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـTower of God Specials — حلقات إضافية لتوضيح شخصيات البرج."
+  },
+  {
+    "id": 182,
+    "title": "Black Clover: Specials",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـBlack Clover Specials — حلقات جانبية لتجارب سحرية جديدة."
+  },
+  {
+    "id": 183,
+    "title": "Akame ga Kill!",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـAkame ga Kill! — أنمي عن ثوار يحاربون الفساد في إمبراطورية شريرة."
+  },
+  {
+    "id": 184,
+    "title": "Tokyo Ghoul",
+    "tags": ["tv", "action", "horror"],
+    "desc": "وصف مختصر لـTokyo Ghoul — أنمي عن شاب يصبح نصف غول ويحاول التعايش مع حياته الجديدة."
+  },
+  {
+    "id": 185,
+    "title": "Tokyo Ghoul √A",
+    "tags": ["tv", "action", "horror"],
+    "desc": "وصف مختصر لـTokyo Ghoul √A — الموسم الثاني مع صراعات غولية أكثر قتامة."
+  },
+  {
+    "id": 186,
+    "title": "Parasyte -the maxim-",
+    "tags": ["tv", "action", "horror"],
+    "desc": "وصف مختصر لـParasyte — أنمي عن طفيليات غريبة تتحكم بالبشر."
+  },
+  {
+    "id": 187,
+    "title": "Psycho-Pass",
+    "tags": ["tv", "sci-fi", "thriller"],
+    "desc": "وصف مختصر لـPsycho-Pass — أنمي مستقبلية عن نظام يحدد خطورة الأفراد."
+  },
+  {
+    "id": 188,
+    "title": "Psycho-Pass 2",
+    "tags": ["tv", "sci-fi", "thriller"],
+    "desc": "وصف مختصر لـPsycho-Pass 2 — الموسم الثاني مع تهديدات جديدة ونظام أمني معقد."
+  },
+  {
+    "id": 189,
+    "title": "Psycho-Pass 3",
+    "tags": ["tv", "sci-fi", "thriller"],
+    "desc": "وصف مختصر لـPsycho-Pass 3 — الموسم الثالث واختبارات أخلاقية جديدة."
+  },
+  {
+    "id": 190,
+    "title": "Black Bullet: Specials",
+    "tags": ["tv", "action", "sci-fi"],
+    "desc": "وصف مختصر لـBlack Bullet Specials — حلقات جانبية توضح أحداث المستقبل القاتم."
+  },
+  {
+    "id": 191,
+    "title": "Death Parade",
+    "tags": ["tv", "drama", "mystery"],
+    "desc": "وصف مختصر لـDeath Parade — أنمي عن الحياة بعد الموت والأحكام على الأرواح."
+  },
+  {
+    "id": 192,
+    "title": "Vivy: Fluorite Eye’s Song Season 2",
+    "tags": ["tv", "action", "music"],
+    "desc": "وصف مختصر لـVivy Season 2 — الموسم الثاني مع تحديات جديدة لروبوت الغناء."
+  },
+  {
+    "id": 193,
+    "title": "D.Gray-man",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـD.Gray-man — أنمي عن أكسورسيسيت يحارب الأرواح الشريرة."
+  },
+  {
+    "id": 194,
+    "title": "D.Gray-man Hallow",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـD.Gray-man Hallow — الموسم الثاني مع أحداث أكثر تشويقًا."
+  },
+  {
+    "id": 195,
+    "title": "Fairy Tail",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـFairy Tail — أنمي عن نقابة سحرية ومغامرات أبطالها."
+  },
+  {
+    "id": 196,
+    "title": "Fairy Tail Final Season",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـFairy Tail Final Season — الموسم الأخير مع اختتام مغامرات الشخصيات."
+  },
+  {
+    "id": 197,
+    "title": "High School DxD",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـHigh School DxD — أنمي عن شياطين وملائكة ومغامرات كوميدية."
+  },
+  {
+    "id": 198,
+    "title": "High School DxD Hero",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـHigh School DxD Hero — الموسم الأخير مع قوى جديدة ومعارك مثيرة."
+  },
+  {
+    "id": 199,
+    "title": "Akudama Drive",
+    "tags": ["tv", "action", "sci-fi"],
+    "desc": "وصف مختصر لـAkudama Drive — أنمي عن مجرمين في مستقبل فوضوي."
+  },
+  {
+    "id": 200,
+    "title": "Dororo",
+    "tags": ["tv", "action", "adventure"],
+    "desc": "وصف مختصر لـDororo — أنمي عن شاب يستعيد جسده من الشياطين بمساعدة صبي."
+  },
+  {
+    "id": 201,
+    "title": "Blue Exorcist",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـBlue Exorcist — أنمي عن شاب يكتشف أنه ابن الشيطان ويحارب الأرواح الشريرة."
+  },
+  {
+    "id": 202,
+    "title": "Blue Exorcist: Kyoto Saga",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـBlue Exorcist Kyoto Saga — الموسم الثاني مع مغامرات جديدة في كيوتو."
+  },
+  {
+    "id": 203,
+    "title": "Samurai Champloo",
+    "tags": ["tv", "action", "adventure"],
+    "desc": "وصف مختصر لـSamurai Champloo — أنمي عن مغامرات ساموراي وفتاة في رحلة البحث."
+  },
+  {
+    "id": 204,
+    "title": "Baccano!",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـBaccano! — أنمي عن عصابات، خوارق، وأحداث متشابكة في أمريكا."
+  },
+  {
+    "id": 205,
+    "title": "Durarara!!",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـDurarara!! — أحداث مدينة إيكابوكو مليئة بالغموض والشخصيات الغريبة."
+  },
+  {
+    "id": 206,
+    "title": "Durarara!!x2 Shou",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـDurarara!!x2 Shou — الموسم الثاني من الأحداث المشوقة في إيكابوكو."
+  },
+  {
+    "id": 207,
+    "title": "Durarara!!x2 Ten",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـDurarara!!x2 Ten — الموسم الثالث مع صراعات جديدة ومفاجآت."
+  },
+  {
+    "id": 208,
+    "title": "Durarara!!x2 Ketsu",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـDurarara!!x2 Ketsu — ختام أحداث سلسلة Durarara!!."
+  },
+  {
+    "id": 209,
+    "title": "Elfen Lied",
+    "tags": ["tv", "action", "horror"],
+    "desc": "وصف مختصر لـElfen Lied — أنمي درامي ودموي عن مخلوقات بشعة وقدراتها الغريبة."
+  },
+  {
+    "id": 210,
+    "title": "Steins;Gate",
+    "tags": ["tv", "sci-fi", "thriller"],
+    "desc": "وصف مختصر لـSteins;Gate — أنمي عن السفر عبر الزمن وتجارب علمية مثيرة."
+  },
+  {
+    "id": 211,
+    "title": "Steins;Gate 0",
+    "tags": ["tv", "sci-fi", "thriller"],
+    "desc": "وصف مختصر لـSteins;Gate 0 — موسم إضافي يستكمل أحداث السفر عبر الزمن."
+  },
+  {
+    "id": 212,
+    "title": "Clannad",
+    "tags": ["tv", "drama", "romance"],
+    "desc": "وصف مختصر لـClannad — أنمي عن حياة طلاب المدرسة والروابط العاطفية."
+  },
+  {
+    "id": 213,
+    "title": "Clannad: After Story",
+    "tags": ["tv", "drama", "romance"],
+    "desc": "وصف مختصر لـClannad After Story — الموسم الثاني مع أحداث أكثر تأثيرًا ودراما."
+  },
+  {
+    "id": 214,
+    "title": "Angel Beats!",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـAngel Beats! — أنمي عن حياة ما بعد الموت وطلاب يحاربون المصير."
+  },
+  {
+    "id": 215,
+    "title": "KonoSuba: God’s Blessing on This Wonderful World!",
+    "tags": ["tv", "comedy", "fantasy"],
+    "desc": "وصف مختصر لـKonoSuba — أنمي كوميدي عن مغامرات عالم خيالي فوضوي."
+  },
+  {
+    "id": 216,
+    "title": "KonoSuba Season 2",
+    "tags": ["tv", "comedy", "fantasy"],
+    "desc": "وصف مختصر لـKonoSuba S2 — استمرار مغامرات كازوما وأصدقائه الغريبة."
+  },
+  {
+    "id": 217,
+    "title": "KonoSuba Movie: Legend of Crimson",
+    "tags": ["movie", "comedy", "fantasy"],
+    "desc": "وصف مختصر لـKonoSuba Movie — فيلم عن مواجهة تهديد جديد في العالم الخيالي."
+  },
+  {
+    "id": 218,
+    "title": "Re:Zero − Starting Life in Another World",
+    "tags": ["tv", "fantasy", "drama"],
+    "desc": "وصف مختصر لـRe:Zero — أنمي عن شاب ينتقل لعالم آخر ويعيش صراعات الموت المتكرر."
+  },
+  {
+    "id": 219,
+    "title": "Re:Zero − Starting Life in Another World Season 2",
+    "tags": ["tv", "fantasy", "drama"],
+    "desc": "وصف مختصر لـRe:Zero S2 — الموسم الثاني مع أحداث أكثر قتامة ومفاجآت."
+  },
+  {
+    "id": 220,
+    "title": "Re:Zero − Starting Life in Another World OVA",
+    "tags": ["tv", "fantasy", "drama"],
+    "desc": "وصف مختصر لـRe:Zero OVA — حلقات جانبية لتوضيح أحداث إضافية."
+  },
+  {
+    "id": 221,
+    "title": "The Rising of the Shield Hero",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـShield Hero — أنمي عن بطل يُدافع عن عالمه باستخدام درعه."
+  },
+  {
+    "id": 222,
+    "title": "The Rising of the Shield Hero Season 2",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـShield Hero S2 — الموسم الثاني واستكمال مغامرات البطل."
+  },
+  {
+    "id": 223,
+    "title": "The Rising of the Shield Hero Season 3",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـShield Hero S3 — الموسم الثالث وخوض تحديات جديدة."
+  },
+  {
+    "id": 224,
+    "title": "That Time I Got Reincarnated as a Slime",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـSlime — أنمي عن شاب يُعاد تجسيده كوحش سحري في عالم جديد."
+  },
+  {
+    "id": 225,
+    "title": "That Time I Got Reincarnated as a Slime Season 2",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـSlime S2 — الموسم الثاني مع توسع العالم والشخصيات."
+  },
+  {
+    "id": 226,
+    "title": "That Time I Got Reincarnated as a Slime Movie",
+    "tags": ["movie", "action", "fantasy"],
+    "desc": "وصف مختصر لـSlime Movie — فيلم أحداثه ضمن عالم الأنمي."
+  },
+  {
+    "id": 227,
+    "title": "No Game No Life",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـNo Game No Life — أنمي عن توأمين بارعين في الألعاب يتحدون آلهة العالم الجديد."
+  },
+  {
+    "id": 228,
+    "title": "No Game No Life II",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـNo Game No Life II — حلقات إضافية ومغامرات جديدة."
+  },
+  {
+    "id": 229,
+    "title": "The Devil is a Part-Timer!",
+    "tags": ["tv", "comedy", "fantasy"],
+    "desc": "وصف مختصر لـDevil is a Part-Timer — أنمي كوميدي عن شيطان يعمل في مطعم سريع."
+  },
+  {
+    "id": 230,
+    "title": "The Devil is a Part-Timer! Season 2",
+    "tags": ["tv", "comedy", "fantasy"],
+    "desc": "وصف مختصر لـDevil is a Part-Timer S2 — استمرار مغامرات الشيطان البشري."
+  },
+  {
+    "id": 231,
+    "title": "Overlord",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـOverlord — أنمي عن لاعب محاصر في لعبة ويصبح ملكاً في عالم افتراضي."
+  },
+  {
+    "id": 232,
+    "title": "Overlord II",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـOverlord II — الموسم الثاني مع مواجهات أكبر وخطط استراتيجيات."
+  },
+  {
+    "id": 233,
+    "title": "Overlord III",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـOverlord III — الموسم الثالث واختتام مغامرات الملك الأعظم."
+  },
+  {
+    "id": 234,
+    "title": "Log Horizon",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـLog Horizon — أنمي عن لاعبين محاصرين في لعبة MMORPG ومحاولتهم التكيف."
+  },
+  {
+    "id": 235,
+    "title": "Log Horizon 2",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـLog Horizon 2 — الموسم الثاني مع تحديات جديدة وتحالفات."
+  },
+  {
+    "id": 236,
+    "title": "Log Horizon: Destruction of the Round Table",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـLog Horizon Specials — حلقات جانبية لتوسيع أحداث الأنمي."
+  },
+  {
+    "id": 237,
+    "title": "Grimgar: Ashes and Illusions",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـGrimgar — أنمي عن مجموعة شباب يحاولون النجاة في عالم خيالي قاتم."
+  },
+  {
+    "id": 238,
+    "title": "Goblin Slayer",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـGoblin Slayer — أنمي عن محارب مهووس بمحاربة الغولين في عالم خطير."
+  },
+  {
+    "id": 239,
+    "title": "Goblin Slayer: Goblin’s Crown",
+    "tags": ["movie", "action", "fantasy"],
+    "desc": "وصف مختصر لـGoblin Slayer Movie — فيلم لتوسيع أحداث الأنمي ومغامرات المحارب."
+  },
+  {
+    "id": 240,
+    "title": "Fate/Stay Night: Unlimited Blade Works",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـFate UBW — أنمي عن معارك السحرة والأبطال الأسطوريين."
+  },
+  {
+    "id": 241,
+    "title": "Fate/Zero",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـFate/Zero — أنمي عن حرب الكؤوس المقدسة وصراع الأبطال."
+  },
+  {
+    "id": 242,
+    "title": "Fate/Stay Night: Heaven’s Feel I",
+    "tags": ["movie", "action", "fantasy"],
+    "desc": "وصف مختصر لـFate Heaven’s Feel Movie 1 — بداية أحداث مسار Heaven’s Feel."
+  },
+  {
+    "id": 243,
+    "title": "Fate/Stay Night: Heaven’s Feel II",
+    "tags": ["movie", "action", "fantasy"],
+    "desc": "وصف مختصر لـFate Heaven’s Feel Movie 2 — استكمال أحداث المسار الدرامي."
+  },
+  {
+    "id": 244,
+    "title": "Fate/Stay Night: Heaven’s Feel III",
+    "tags": ["movie", "action", "fantasy"],
+    "desc": "وصف مختصر لـFate Heaven’s Feel Movie 3 — ختام ملحمي للمسار."
+  },
+  {
+    "id": 245,
+    "title": "Dr. Stone",
+    "tags": ["tv", "action", "sci-fi"],
+    "desc": "وصف مختصر لـDr. Stone — أنمي عن شاب يحاول إعادة الحضارة بعد كارثة حجرية."
+  },
+  {
+    "id": 246,
+    "title": "Dr. Stone: Stone Wars",
+    "tags": ["tv", "action", "sci-fi"],
+    "desc": "وصف مختصر لـDr. Stone Stone Wars — الموسم الثاني مع صراعات استراتيجية للبقاء."
+  },
+  {
+    "id": 247,
+    "title": "Akudama Drive",
+    "tags": ["tv", "action", "sci-fi"],
+    "desc": "وصف مختصر لـAkudama Drive — أنمي عن مجرمين في مستقبل فوضوي."
+  },
+  {
+    "id": 248,
+    "title": "The World God Only Knows",
+    "tags": ["tv", "comedy", "romance"],
+    "desc": "وصف مختصر لـThe World God Only Knows — أنمي عن لاعب ألعاب فيديو يحل مشكلات الحب الواقعية."
+  },
+  {
+    "id": 249,
+    "title": "The World God Only Knows II",
+    "tags": ["tv", "comedy", "romance"],
+    "desc": "وصف مختصر لـThe World God Only Knows II — الموسم الثاني مع المزيد من الفتيات والتحديات."
+  },
+  {
+    "id": 250,
+    "title": "The World God Only Knows III",
+    "tags": ["tv", "comedy", "romance"],
+    "desc": "وصف مختصر لـThe World God Only Knows III — الموسم الثالث وختام مغامرات البطل."
+  },
+  {
+    "id": 251,
+    "title": "Vivy: Fluorite Eye’s Song",
+    "tags": ["tv", "action", "music"],
+    "desc": "وصف مختصر لـVivy — أنمي عن روبوت مغنية تحاول حماية البشر من الذكاء الاصطناعي."
+  },
+  {
+    "id": 252,
+    "title": "Vivy: Fluorite Eye’s Song Season 2",
+    "tags": ["tv", "action", "music"],
+    "desc": "وصف مختصر لـVivy Season 2 — استمرار رحلة روبوت الغناء ومغامراته."
+  },
+  {
+    "id": 253,
+    "title": "The Ancient Magus’ Bride",
+    "tags": ["tv", "fantasy", "drama"],
+    "desc": "وصف مختصر لـThe Ancient Magus’ Bride — قصة فتاة تتزوج ساحر غامض وتكتشف عالمه السحري."
+  },
+  {
+    "id": 254,
+    "title": "The Ancient Magus’ Bride: Specials",
+    "tags": ["tv", "fantasy", "drama"],
+    "desc": "وصف مختصر لـThe Ancient Magus’ Bride Specials — حلقات جانبية لأحداث إضافية."
+  },
+  {
+    "id": 255,
+    "title": "Vivy: Fluorite Eye’s Song Movie",
+    "tags": ["movie", "action", "music"],
+    "desc": "وصف مختصر لـVivy Movie — فيلم لتكملة قصة الروبوت المغنية."
+  },
+  {
+    "id": 256,
+    "title": "Made in Abyss",
+    "tags": ["tv", "adventure", "fantasy"],
+    "desc": "وصف مختصر لـMade in Abyss — أنمي عن رحلة فتاة في هوة عميقة لاستكشاف الأسرار."
+  },
+  {
+    "id": 257,
+    "title": "Made in Abyss: Dawn of the Deep Soul",
+    "tags": ["movie", "adventure", "fantasy"],
+    "desc": "وصف مختصر لـMade in Abyss Movie — فيلم يوسع أحداث الأنمي ويكمل القصة."
+  },
+  {
+    "id": 258,
+    "title": "Made in Abyss: The Golden City of the Scorching Sun",
+    "tags": ["tv", "adventure", "fantasy"],
+    "desc": "وصف مختصر لـMade in Abyss Season 2 — الموسم الثاني مع اكتشاف مدن وأسرار جديدة."
+  },
+  {
+    "id": 259,
+    "title": "Terror in Resonance",
+    "tags": ["tv", "thriller", "drama"],
+    "desc": "وصف مختصر لـTerror in Resonance — أنمي عن طفلين يقومان بأعمال إرهابية لأسباب غامضة."
+  },
+  {
+    "id": 260,
+    "title": "91 Days",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـ91 Days — أنمي عن الانتقام بين عصابات المافيا في أمريكا."
+  },
+  {
+    "id": 261,
+    "title": "Gangsta",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـGangsta — أنمي عن عصابات وحياة مزدوجة في مدينة مليئة بالجريمة."
+  },
+  {
+    "id": 262,
+    "title": "Black Lagoon",
+    "tags": ["tv", "action", "adventure"],
+    "desc": "وصف مختصر لـBlack Lagoon — أنمي عن مجموعة مرتزقة في مدينة مليئة بالجريمة والتهريب."
+  },
+  {
+    "id": 263,
+    "title": "Black Lagoon: Roberta’s Blood Trail",
+    "tags": ["ova", "action", "adventure"],
+    "desc": "وصف مختصر لـBlack Lagoon OVA — أحداث جانبية لمغامرات الفريق ومواجهة روبيرتا."
+  },
+  {
+    "id": 264,
+    "title": "Akira",
+    "tags": ["movie", "action", "sci-fi"],
+    "desc": "وصف مختصر لـAkira — فيلم كلاسيكي عن مستقبل طوكيو بعد الحرب النووية."
+  },
+  {
+    "id": 265,
+    "title": "Cowboy Bebop",
+    "tags": ["tv", "action", "sci-fi"],
+    "desc": "وصف مختصر لـCowboy Bebop — أنمي عن صيادين ومغامراتهم في الفضاء."
+  },
+  {
+    "id": 266,
+    "title": "Cowboy Bebop: The Movie",
+    "tags": ["movie", "action", "sci-fi"],
+    "desc": "وصف مختصر لـCowboy Bebop Movie — فيلم أحداثه بين حلقات الأنمي."
+  },
+  {
+    "id": 267,
+    "title": "Trigun",
+    "tags": ["tv", "action", "adventure"],
+    "desc": "وصف مختصر لـTrigun — أنمي عن مسافر غامض يحاول الحفاظ على السلام في عالم فوضوي."
+  },
+  {
+    "id": 268,
+    "title": "Trigun: Badlands Rumble",
+    "tags": ["movie", "action", "adventure"],
+    "desc": "وصف مختصر لـTrigun Movie — فيلم مغامرات جديدة في عالم Trigun."
+  },
+  {
+    "id": 269,
+    "title": "Psycho-Pass: Movie",
+    "tags": ["movie", "sci-fi", "thriller"],
+    "desc": "وصف مختصر لـPsycho-Pass Movie — متابعة أحداث الأنمي في مهمة جديدة."
+  },
+  {
+    "id": 270,
+    "title": "Psycho-Pass: Sinners of the System",
+    "tags": ["movie", "sci-fi", "thriller"],
+    "desc": "وصف مختصر لـPsycho-Pass Sinners of the System — ثلاثية أفلام تكمل القصة."
+  },
+  {
+    "id": 271,
+    "title": "Erased",
+    "tags": ["tv", "thriller", "drama"],
+    "desc": "وصف مختصر لـErased — أنمي عن رجل يعود بالزمن لإنقاذ فتيات من قاتل متسلسل."
+  },
+  {
+    "id": 272,
+    "title": "Orange",
+    "tags": ["tv", "drama", "romance"],
+    "desc": "وصف مختصر لـOrange — أنمي عن رسائل من المستقبل لتغيير مصير صديق."
+  },
+  {
+    "id": 273,
+    "title": "Your Lie in April",
+    "tags": ["tv", "drama", "music"],
+    "desc": "وصف مختصر لـYour Lie in April — أنمي عن شاب عازف بيانو يكتشف الحب والموسيقى."
+  },
+  {
+    "id": 274,
+    "title": "Anohana: The Flower We Saw That Day",
+    "tags": ["tv", "drama", "slice-of-life"],
+    "desc": "وصف مختصر لـAnohana — أنمي عن أطفال الطفولة يلتقون لمواجهة ماضٍ مؤلم."
+  },
+  {
+    "id": 275,
+    "title": "Vivy: Fluorite Eye’s Song Specials",
+    "tags": ["tv", "action", "music"],
+    "desc": "وصف مختصر لـVivy Specials — حلقات جانبية تكمل أحداث الأنمي."
+  },
+  {
+    "id": 276,
+    "title": "Zankyou no Terror",
+    "tags": ["tv", "thriller", "drama"],
+    "desc": "وصف مختصر لـZankyou no Terror — نفس Terror in Resonance بمسمى آخر."
+  },
+  {
+    "id": 277,
+    "title": "No.6",
+    "tags": ["tv", "sci-fi", "drama"],
+    "desc": "وصف مختصر لـNo.6 — أنمي عن مدينة مستقبلية وسر مؤامرة مظلمة."
+  },
+  {
+    "id": 278,
+    "title": "Ergo Proxy",
+    "tags": ["tv", "sci-fi", "thriller"],
+    "desc": "وصف مختصر لـErgo Proxy — أنمي غامض عن روبوتات وأسرار المدينة المستقبلية."
+  },
+  {
+    "id": 279,
+    "title": "Paranoia Agent",
+    "tags": ["tv", "thriller", "mystery"],
+    "desc": "وصف مختصر لـParanoia Agent — أنمي نفسي غامض عن جرائم مفاجئة."
+  },
+  {
+    "id": 280,
+    "title": "Texhnolyze",
+    "tags": ["tv", "sci-fi", "drama"],
+    "desc": "وصف مختصر لـTexhnolyze — أنمي مظلم عن مستقبل مدينة تتحكم بها العصابات والتكنولوجيا."
+  },
+  {
+    "id": 281,
+    "title": "Shiki",
+    "tags": ["tv", "horror", "drama"],
+    "desc": "وصف مختصر لـShiki — أنمي رعب عن قرية تنتشر فيها مصائب غريبة."
+  },
+  {
+    "id": 282,
+    "title": "Hellsing",
+    "tags": ["tv", "action", "horror"],
+    "desc": "وصف مختصر لـHellsing — أنمي عن منظمة تحارب مصاصي الدماء في لندن."
+  },
+  {
+    "id": 283,
+    "title": "Hellsing Ultimate",
+    "tags": ["ova", "action", "horror"],
+    "desc": "وصف مختصر لـHellsing Ultimate — نسخة كاملة وأكثر دمويّة من الأنمي."
+  },
+  {
+    "id": 284,
+    "title": "Another",
+    "tags": ["tv", "horror", "mystery"],
+    "desc": "وصف مختصر لـAnother — أنمي رعب غامض عن فصل دراسي ملعون."
+  },
+  {
+    "id": 285,
+    "title": "Future Diary",
+    "tags": ["tv", "action", "thriller"],
+    "desc": "وصف مختصر لـFuture Diary — أنمي عن صراع من يملك يوميات تكشف المستقبل."
+  },
+  {
+    "id": 286,
+    "title": "Mirai Nikki: Redial",
+    "tags": ["ova", "action", "thriller"],
+    "desc": "وصف مختصر لـMirai Nikki OVA — حلقة إضافية بعد نهاية الأنمي."
+  },
+  {
+    "id": 287,
+    "title": "Black Cat",
+    "tags": ["tv", "action", "adventure"],
+    "desc": "وصف مختصر لـBlack Cat — أنمي عن صياد قاتل سابق يغامر في عالم الجريمة."
+  },
+  {
+    "id": 288,
+    "title": "Wolf’s Rain",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـWolf’s Rain — أنمي عن ذئاب تبحث عن جنة خفية في عالم بشري."
+  },
+  {
+    "id": 289,
+    "title": "Ergo Proxy Specials",
+    "tags": ["tv", "sci-fi", "thriller"],
+    "desc": "وصف مختصر لـErgo Proxy Specials — حلقات توضيحية لأحداث الأنمي."
+  },
+  {
+    "id": 290,
+    "title": "Michiko & Hatchin",
+    "tags": ["tv", "action", "adventure"],
+    "desc": "وصف مختصر لـMichiko & Hatchin — أنمي عن مغامرات امرأة وطفلة تهربان معًا."
+  },
+  {
+    "id": 291,
+    "title": "Ergo Proxy: Movie",
+    "tags": ["movie", "sci-fi", "thriller"],
+    "desc": "وصف مختصر لـErgo Proxy Movie — فيلم مستوحى من أحداث الأنمي."
+  },
+  {
+    "id": 292,
+    "title": "91 Days: Movie",
+    "tags": ["movie", "action", "drama"],
+    "desc": "وصف مختصر لـ91 Days Movie — فيلم يوسع قصة الانتقام بين العصابات."
+  },
+  {
+    "id": 293,
+    "title": "Kabaneri of the Iron Fortress",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـKabaneri — أنمي عن مقاومة البشر لمخلوقات تشبه الزومبي في قطار محصن."
+  },
+  {
+    "id": 294,
+    "title": "Kabaneri of the Iron Fortress Movie 1",
+    "tags": ["movie", "action", "fantasy"],
+    "desc": "وصف مختصر لـKabaneri Movie 1 — فيلم يختصر أحداث الموسم ويضيف مشاهد جديدة."
+  },
+  {
+    "id": 295,
+    "title": "Kabaneri of the Iron Fortress Movie 2",
+    "tags": ["movie", "action", "fantasy"],
+    "desc": "وصف مختصر لـKabaneri Movie 2 — استمرار أحداث الفيلم الأول مع تطورات جديدة."
+  },
+  {
+    "id": 296,
+    "title": "Erased: Movie",
+    "tags": ["movie", "thriller", "drama"],
+    "desc": "وصف مختصر لـErased Movie — فيلم مستوحى من أحداث الأنمي."
+  },
+  {
+    "id": 297,
+    "title": "Shinsekai Yori",
+    "tags": ["tv", "sci-fi", "drama"],
+    "desc": "وصف مختصر لـShinsekai Yori — أنمي عن مستقبل البشرية بعد اكتشاف قدرات نفسية خارقة."
+  },
+  {
+    "id": 298,
+    "title": "Alderamin on the Sky",
+    "tags": ["tv", "action", "military"],
+    "desc": "وصف مختصر لـAlderamin — أنمي عن ضابط عبقري وخطط حربية."
+  },
+  {
+    "id": 299,
+    "title": "The Legend of the Legendary Heroes",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـThe Legend of the Legendary Heroes — أنمي عن سحر ومعارك في عالم خيالي."
+  },
+  {
+    "id": 300,
+    "title": "Seraph of the End",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـSeraph of the End — أنمي عن عالم بعد نهاية العالم ومصاصي دماء."
+  },
+  {
+    "id": 201,
+    "title": "Paranoia Agent",
+    "tags": ["tv", "psychological", "mystery"],
+    "desc": "وصف مختصر لـParanoia Agent — أنمي نفسي غامض يكشف الجانب المظلم للمجتمع."
+  },
+  {
+    "id": 202,
+    "title": "Akira",
+    "tags": ["movie", "sci-fi", "action"],
+    "desc": "وصف مختصر لـAkira — فيلم خيال علمي أسطوري عن الدمار والقوى الخارقة."
+  },
+  {
+    "id": 203,
+    "title": "Perfect Blue",
+    "tags": ["movie", "psychological", "thriller"],
+    "desc": "وصف مختصر لـPerfect Blue — فيلم نفسي مليء بالغموض والهلوسة."
+  },
+  {
+    "id": 204,
+    "title": "Steins;Gate 0",
+    "tags": ["tv", "sci-fi", "drama"],
+    "desc": "وصف مختصر لـSteins;Gate 0 — تكملة درامية للعبة الزمن المعقدة."
+  },
+  {
+    "id": 205,
+    "title": "Terror in Resonance",
+    "tags": ["tv", "thriller", "drama"],
+    "desc": "وصف مختصر لـTerror in Resonance — قصة صادمة عن الإرهاب والرسائل الخفية."
+  },
+  {
+    "id": 206,
+    "title": "Your Lie in April",
+    "tags": ["tv", "romance", "drama"],
+    "desc": "وصف مختصر لـYour Lie in April — قصة حب وموسيقى مؤثرة للغاية."
+  },
+  {
+    "id": 207,
+    "title": "Anohana: The Flower We Saw That Day",
+    "tags": ["tv", "drama", "slice of life"],
+    "desc": "وصف مختصر لـAnohana — صداقة قديمة تعود بعد مأساة مؤثرة."
+  },
+  {
+    "id": 208,
+    "title": "Erased",
+    "tags": ["tv", "mystery", "thriller"],
+    "desc": "وصف مختصر لـErased — رحلة عبر الزمن لإنقاذ حياة الطفولة."
+  },
+  {
+    "id": 209,
+    "title": "Re:Zero - Starting Life in Another World",
+    "tags": ["tv", "fantasy", "drama"],
+    "desc": "وصف مختصر لـRe:Zero — البطل يعود من الموت مرارًا ليغير مصيره."
+  },
+  {
+    "id": 210,
+    "title": "No Game No Life",
+    "tags": ["tv", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـNo Game No Life — أخ وأخت يسيطران على عالم قائم على الألعاب."
+  },
+  {
+    "id": 211,
+    "title": "KonoSuba: God's Blessing on This Wonderful World!",
+    "tags": ["tv", "comedy", "fantasy"],
+    "desc": "وصف مختصر لـKonoSuba — مغامرة كوميدية مليئة بالسحر والضحك."
+  },
+  {
+    "id": 212,
+    "title": "The Devil is a Part-Timer!",
+    "tags": ["tv", "comedy", "fantasy"],
+    "desc": "وصف مختصر لـThe Devil is a Part-Timer — ملك الشياطين يعمل في مطعم وجبات سريعة."
+  },
+  {
+    "id": 213,
+    "title": "Angel Beats!",
+    "tags": ["tv", "drama", "action"],
+    "desc": "وصف مختصر لـAngel Beats! — صراع الأرواح في عالم ما بعد الموت."
+  },
+  {
+    "id": 214,
+    "title": "Toradora!",
+    "tags": ["tv", "romance", "comedy"],
+    "desc": "وصف مختصر لـToradora! — قصة حب مدرسية مليئة بالمواقف الكوميدية."
+  },
+  {
+    "id": 215,
+    "title": "Clannad",
+    "tags": ["tv", "drama", "romance"],
+    "desc": "وصف مختصر لـClannad — أنمي عاطفي عن العائلة والصداقة."
+  },
+  {
+    "id": 216,
+    "title": "Clannad: After Story",
+    "tags": ["tv", "drama", "romance"],
+    "desc": "وصف مختصر لـClannad After Story — تكملة حزينة تمس القلب بعمق."
+  },
+  {
+    "id": 217,
+    "title": "Charlotte",
+    "tags": ["tv", "drama", "supernatural"],
+    "desc": "وصف مختصر لـCharlotte — طلاب بقدرات خاصة يواجهون تحديات خطيرة."
+  },
+  {
+    "id": 218,
+    "title": "Guilty Crown",
+    "tags": ["tv", "sci-fi", "action"],
+    "desc": "وصف مختصر لـGuilty Crown — قوة غامضة تنقل فتى عادي إلى قلب الصراع."
+  },
+  {
+    "id": 219,
+    "title": "The Future Diary",
+    "tags": ["tv", "thriller", "action"],
+    "desc": "وصف مختصر لـThe Future Diary — مذكرات تكشف المستقبل ومعركة للبقاء."
+  },
+  {
+    "id": 220,
+    "title": "Mirai Nikki Redial",
+    "tags": ["ova", "thriller", "drama"],
+    "desc": "وصف مختصر لـMirai Nikki Redial — ختام ملحق لقصة البقاء المثيرة."
+  },
+  {
+    "id": 221,
+    "title": "Made in Abyss",
+    "tags": ["tv", "adventure", "drama"],
+    "desc": "وصف مختصر لـMade in Abyss — رحلة خطيرة إلى أعماق الهوة المظلمة."
+  },
+  {
+    "id": 222,
+    "title": "Made in Abyss: Dawn of the Deep Soul",
+    "tags": ["movie", "adventure", "drama"],
+    "desc": "وصف مختصر لـMade in Abyss Dawn of the Deep Soul — فيلم مكمل مليء بالغموض."
+  },
+  {
+    "id": 223,
+    "title": "Great Teacher Onizuka",
+    "tags": ["tv", "comedy", "slice of life"],
+    "desc": "وصف مختصر لـGreat Teacher Onizuka — معلم غريب بأسلوبه الخاص لتربية الطلاب."
+  },
+  {
+    "id": 224,
+    "title": "The Melancholy of Haruhi Suzumiya",
+    "tags": ["tv", "comedy", "sci-fi"],
+    "desc": "وصف مختصر لـHaruhi Suzumiya — فتاة غامضة تغير حياة من حولها."
+  },
+  {
+    "id": 225,
+    "title": "Hyouka",
+    "tags": ["tv", "mystery", "slice of life"],
+    "desc": "وصف مختصر لـHyouka — نادي أدبي يكشف أسرارًا غامضة في المدرسة."
+  },
+  {
+    "id": 226,
+    "title": "Barakamon",
+    "tags": ["tv", "slice of life", "comedy"],
+    "desc": "وصف مختصر لـBarakamon — فنان خط ياباني يبحث عن إلهامه في الريف."
+  },
+  {
+    "id": 227,
+    "title": "March Comes in Like a Lion",
+    "tags": ["tv", "drama", "slice of life"],
+    "desc": "وصف مختصر لـMarch Comes in Like a Lion — لاعب شوجي يتغلب على وحدته."
+  },
+  {
+    "id": 228,
+    "title": "Orange",
+    "tags": ["tv", "romance", "drama"],
+    "desc": "وصف مختصر لـOrange — رسائل من المستقبل لإنقاذ صديق من مصير مأساوي."
+  },
+  {
+    "id": 229,
+    "title": "Golden Time",
+    "tags": ["tv", "romance", "drama"],
+    "desc": "وصف مختصر لـGolden Time — حب جامعي مع صراعات الذكريات والماضي."
+  },
+  {
+    "id": 230,
+    "title": "Nisekoi",
+    "tags": ["tv", "romance", "comedy"],
+    "desc": "وصف مختصر لـNisekoi — علاقة مزيفة بين وريثي عصابتين تتحول إلى مشاعر حقيقية."
+  },
+  {
+    "id": 231,
+    "title": "Bakuman",
+    "tags": ["tv", "slice of life", "drama"],
+    "desc": "وصف مختصر لـBakuman — قصة مانغاكا يسعون لتحقيق أحلامهم."
+  },
+  {
+    "id": 232,
+    "title": "Shigatsu wa Kimi no Uso OVA",
+    "tags": ["ova", "romance", "drama"],
+    "desc": "وصف مختصر لـShigatsu wa Kimi no Uso OVA — حلقة إضافية لعزف موسيقي مؤثر."
+  },
+  {
+    "id": 233,
+    "title": "The Pet Girl of Sakurasou",
+    "tags": ["tv", "romance", "comedy"],
+    "desc": "وصف مختصر لـSakurasou —寮 مليء بالمواهب والعلاقات المليئة بالفوضى."
+  },
+  {
+    "id": 234,
+    "title": "Lovely★Complex",
+    "tags": ["tv", "romance", "comedy"],
+    "desc": "وصف مختصر لـLovely Complex — حب طريف بين فتاة طويلة وصبي قصير."
+  },
+  {
+    "id": 235,
+    "title": "School Rumble",
+    "tags": ["tv", "romance", "comedy"],
+    "desc": "وصف مختصر لـSchool Rumble — مواقف كوميدية لا تنتهي في المدرسة."
+  },
+  {
+    "id": 236,
+    "title": "Kimi ni Todoke",
+    "tags": ["tv", "romance", "drama"],
+    "desc": "وصف مختصر لـKimi ni Todoke — فتاة خجولة تبحث عن الصداقة والحب."
+  },
+  {
+    "id": 237,
+    "title": "Ao Haru Ride",
+    "tags": ["tv", "romance", "drama"],
+    "desc": "وصف مختصر لـAo Haru Ride — لقاء قديم يشعل قصة حب جديدة."
+  },
+  {
+    "id": 238,
+    "title": "Say I Love You",
+    "tags": ["tv", "romance", "drama"],
+    "desc": "وصف مختصر لـSay I Love You — علاقة رومانسية تنمو من الصدق والبساطة."
+  },
+  {
+    "id": 239,
+    "title": "Fruits Basket (2019)",
+    "tags": ["tv", "romance", "drama"],
+    "desc": "وصف مختصر لـFruits Basket — فتاة تكتشف سر عائلة تتحول إلى حيوانات الأبراج."
+  },
+  {
+    "id": 240,
+    "title": "Fruits Basket: The Final",
+    "tags": ["tv", "romance", "drama"],
+    "desc": "وصف مختصر لـFruits Basket The Final — الخاتمة المؤثرة لقصة العائلة."
+  },
+  {
+    "id": 241,
+    "title": "Chihayafuru",
+    "tags": ["tv", "sports", "drama"],
+    "desc": "وصف مختصر لـChihayafuru — منافسة قوية في لعبة الكاروتا التقليدية."
+  },
+  {
+    "id": 242,
+    "title": "Yuri on Ice",
+    "tags": ["tv", "sports", "drama"],
+    "desc": "وصف مختصر لـYuri on Ice — قصة ملهمة عن التزلج الفني على الجليد."
+  },
+  {
+    "id": 243,
+    "title": "Haikyuu!!: To the Top",
+    "tags": ["tv", "sports", "action"],
+    "desc": "وصف مختصر لـHaikyuu To the Top — مواصلة رحلة الفريق نحو البطولة."
+  },
+  {
+    "id": 244,
+    "title": "Diamond no Ace",
+    "tags": ["tv", "sports", "drama"],
+    "desc": "وصف مختصر لـDiamond no Ace — قصة لاعب بيسبول يسعى للوصول للقمة."
+  },
+  {
+    "id": 245,
+    "title": "Eyeshield 21",
+    "tags": ["tv", "sports", "comedy"],
+    "desc": "وصف مختصر لـEyeshield 21 — مغامرة ممتعة في عالم كرة القدم الأمريكية."
+  },
+  {
+    "id": 246,
+    "title": "Major",
+    "tags": ["tv", "sports", "drama"],
+    "desc": "وصف مختصر لـMajor — ملحمة بيسبول تمتد عبر أجيال."
+  },
+  {
+    "id": 247,
+    "title": "Baby Steps",
+    "tags": ["tv", "sports", "slice of life"],
+    "desc": "وصف مختصر لـBaby Steps — رحلة شاب نحو الاحتراف في التنس."
+  },
+  {
+    "id": 248,
+    "title": "Free!",
+    "tags": ["tv", "sports", "slice of life"],
+    "desc": "وصف مختصر لـFree! — منافسة وصداقات في السباحة."
+  },
+  {
+    "id": 249,
+    "title": "Free! Eternal Summer",
+    "tags": ["tv", "sports", "slice of life"],
+    "desc": "وصف مختصر لـFree Eternal Summer — استمرار القصة في موسم جديد."
+  },
+  {
+    "id": 250,
+    "title": "Kuroko's Basketball",
+    "tags": ["tv", "sports", "action"],
+    "desc": "وصف مختصر لـKuroko's Basketball — مباريات كرة سلة مشوقة بأسلوب فريد."
+  },
+  {
+    "id": 251,
+    "title": "Slam Dunk",
+    "tags": ["tv", "sports", "comedy"],
+    "desc": "وصف مختصر لـSlam Dunk — كلاسيكية عن كرة السلة وحياة المدرسة."
+  },
+  {
+    "id": 252,
+    "title": "Air Gear",
+    "tags": ["tv", "sports", "action"],
+    "desc": "وصف مختصر لـAir Gear — معارك مذهلة باستخدام الزلاجات الهوائية."
+  },
+  {
+    "id": 253,
+    "title": "Initial D",
+    "tags": ["tv", "sports", "action"],
+    "desc": "وصف مختصر لـInitial D — سباقات الشوارع اليابانية المثيرة."
+  },
+  {
+    "id": 254,
+    "title": "Initial D: Final Stage",
+    "tags": ["ova", "sports", "action"],
+    "desc": "وصف مختصر لـInitial D Final Stage — الخاتمة الحماسية لقصة السباقات."
+  },
+  {
+    "id": 255,
+    "title": "Kaiji: Ultimate Survivor",
+    "tags": ["tv", "psychological", "thriller"],
+    "desc": "وصف مختصر لـKaiji — مقامرات خطيرة تكشف الجانب المظلم للبشر."
+  },
+  {
+    "id": 256,
+    "title": "Akagi",
+    "tags": ["tv", "psychological", "thriller"],
+    "desc": "وصف مختصر لـAkagi — عبقري مقامرة يواجه خصوماً لا يرحمون."
+  },
+  {
+    "id": 257,
+    "title": "One Outs",
+    "tags": ["tv", "sports", "psychological"],
+    "desc": "وصف مختصر لـOne Outs — مزيج بين البيسبول والمقامرة الذهنية."
+  },
+  {
+    "id": 258,
+    "title": "Rainbow: Nisha Rokubou no Shichinin",
+    "tags": ["tv", "drama", "psychological"],
+    "desc": "وصف مختصر لـRainbow — قصة سبعة أصدقاء يكافحون ضد قسوة الحياة."
+  },
+  {
+    "id": 259,
+    "title": "91 Days",
+    "tags": ["tv", "drama", "thriller"],
+    "desc": "وصف مختصر لـ91 Days — انتقام دموي وسط عصابات المافيا."
+  },
+  {
+    "id": 260,
+    "title": "Black Lagoon",
+    "tags": ["tv", "action", "crime"],
+    "desc": "وصف مختصر لـBlack Lagoon — مغامرات خطيرة بين المرتزقة والمافيا."
+  },
+  {
+    "id": 261,
+    "title": "Black Lagoon: The Second Barrage",
+    "tags": ["tv", "action", "crime"],
+    "desc": "وصف مختصر لـBlack Lagoon The Second Barrage — استمرار الفوضى مع المرتزقة."
+  },
+  {
+    "id": 262,
+    "title": "Elfen Lied",
+    "tags": ["tv", "psychological", "horror"],
+    "desc": "وصف مختصر لـElfen Lied — أنمي دموي عن قوى خارقة وصراعات مأساوية."
+  },
+  {
+    "id": 263,
+    "title": "Another",
+    "tags": ["tv", "horror", "mystery"],
+    "desc": "وصف مختصر لـAnother — لعنة غامضة تلاحق فصلًا دراسيًا بأحداث مرعبة."
+  },
+  {
+    "id": 264,
+    "title": "Corpse Party: Tortured Souls",
+    "tags": ["ova", "horror", "supernatural"],
+    "desc": "وصف مختصر لـCorpse Party — مجموعة طلاب محاصرون في مدرسة مسكونة."
+  },
+  {
+    "id": 265,
+    "title": "Higurashi: When They Cry",
+    "tags": ["tv", "horror", "mystery"],
+    "desc": "وصف مختصر لـHigurashi — بلدة صغيرة تخفي أسرارًا دموية."
+  },
+  {
+    "id": 266,
+    "title": "Higurashi: Kai",
+    "tags": ["tv", "horror", "mystery"],
+    "desc": "وصف مختصر لـHigurashi Kai — استمرار الغموض والدموية في القرية."
+  },
+  {
+    "id": 267,
+    "title": "Shiki",
+    "tags": ["tv", "horror", "mystery"],
+    "desc": "وصف مختصر لـShiki — قرية مسكونة بمص دماء غامضين."
+  },
+  {
+    "id": 268,
+    "title": "Tokyo Ghoul √A",
+    "tags": ["tv", "action", "horror"],
+    "desc": "وصف مختصر لـTokyo Ghoul √A — استمرار صراع الغيلان والبشر."
+  },
+  {
+    "id": 269,
+    "title": "Parasyte: The Maxim",
+    "tags": ["tv", "sci-fi", "horror"],
+    "desc": "وصف مختصر لـParasyte — كائن طفيلي يغير حياة طالب عادي."
+  },
+  {
+    "id": 270,
+    "title": "Devilman Crybaby",
+    "tags": ["tv", "horror", "drama"],
+    "desc": "وصف مختصر لـDevilman Crybaby — إعادة تصور مظلمة لأسطورة ديفل مان."
+  },
+  {
+    "id": 271,
+    "title": "Berserk (1997)",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـBerserk 1997 — ملحمة مظلمة عن المحارب غاتس."
+  },
+  {
+    "id": 272,
+    "title": "Berserk (2016)",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـBerserk 2016 — تكملة لقصة ملحمية مليئة بالظلام."
+  },
+  {
+    "id": 273,
+    "title": "Claymore",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـClaymore — محاربات نصف بشرية يقاتلن الوحوش المدمرة."
+  },
+  {
+    "id": 274,
+    "title": "D.Gray-man",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـD.Gray-man — محاربة قوى الظلام بقدرات مقدسة."
+  },
+  {
+    "id": 275,
+    "title": "Blue Exorcist",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـBlue Exorcist — ابن الشيطان يقاتل ليصبح طارد أرواح."
+  },
+  {
+    "id": 276,
+    "title": "Blue Gender",
+    "tags": ["tv", "sci-fi", "action"],
+    "desc": "وصف مختصر لـBlue Gender — معركة بقاء ضد مخلوقات غامضة اجتاحت الأرض."
+  },
+  {
+    "id": 277,
+    "title": "Scrapped Princess",
+    "tags": ["tv", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـScrapped Princess — أميرة منبوذة تواجه قدرًا غامضًا ومؤامرات تهدد العالم."
+  },
+  {
+    "id": 278,
+    "title": "The Twelve Kingdoms",
+    "tags": ["tv", "fantasy", "drama"],
+    "desc": "وصف مختصر لـThe Twelve Kingdoms — فتاة تنتقل إلى عالم آخر وتصبح جزءًا من صراع ممالك."
+  },
+  {
+    "id": 279,
+    "title": "RahXephon",
+    "tags": ["tv", "mecha", "sci-fi"],
+    "desc": "وصف مختصر لـRahXephon — مراهق يقود آلة غامضة تعيد ضبط تناغم العالم."
+  },
+  {
+    "id": 280,
+    "title": "Ergo Proxy",
+    "tags": ["tv", "sci-fi", "psychological"],
+    "desc": "وصف مختصر لـErgo Proxy — مستقبل مظلم حيث البشر والأندرويد يواجهون أسرار وجودية."
+  },
+  {
+    "id": 281,
+    "title": "Texhnolyze",
+    "tags": ["tv", "sci-fi", "psychological"],
+    "desc": "وصف مختصر لـTexhnolyze — مدينة تحت الأرض حيث التكنولوجيا والبشرية تنهار."
+  },
+  {
+    "id": 282,
+    "title": "Haibane Renmei",
+    "tags": ["tv", "drama", "fantasy"],
+    "desc": "وصف مختصر لـHaibane Renmei — أرواح غامضة بأجنحة رمادية تحاول فهم غايتها في عالم غريب."
+  },
+  {
+    "id": 283,
+    "title": "Wolf's Rain",
+    "tags": ["tv", "drama", "fantasy"],
+    "desc": "وصف مختصر لـWolf's Rain — ذئاب متخفية كبشر تبحث عن الجنة الأسطورية."
+  },
+  {
+    "id": 284,
+    "title": "Last Exile",
+    "tags": ["tv", "sci-fi", "adventure"],
+    "desc": "وصف مختصر لـLast Exile — طياران يخوضان مغامرة جوية وسط حرب سماوية."
+  },
+  {
+    "id": 285,
+    "title": "Kino's Journey",
+    "tags": ["tv", "adventure", "philosophy"],
+    "desc": "وصف مختصر لـKino's Journey — مسافر يجوب بلدانًا غريبة ليتعلم عن الحياة."
+  },
+  {
+    "id": 286,
+    "title": "Shamanic Princess",
+    "tags": ["ova", "fantasy", "magic"],
+    "desc": "وصف مختصر لـShamanic Princess — فتاة تمتلك قوة غامضة لحماية العالم السحري."
+  },
+  {
+    "id": 287,
+    "title": "Now and Then, Here and There",
+    "tags": ["tv", "drama", "sci-fi"],
+    "desc": "وصف مختصر لـNow and Then, Here and There — طفل يُنقل لعالم قاسٍ تسوده الحروب."
+  },
+  {
+    "id": 288,
+    "title": "Big O",
+    "tags": ["tv", "mecha", "mystery"],
+    "desc": "وصف مختصر لـBig O — محقق يقود روبوتًا عملاقًا في مدينة بلا ذاكرة."
+  },
+  {
+    "id": 289,
+    "title": "Serial Experiments Lain",
+    "tags": ["tv", "sci-fi", "psychological"],
+    "desc": "وصف مختصر لـSerial Experiments Lain — فتاة تنغمس في شبكة رقمية تربط الوعي بالعالم."
+  },
+  {
+    "id": 290,
+    "title": "Gantz",
+    "tags": ["tv", "sci-fi", "action"],
+    "desc": "وصف مختصر لـGantz — الموت ليس النهاية بل بداية لعبة قاتلة مع الغرباء."
+  },
+  {
+    "id": 291,
+    "title": "Bokurano",
+    "tags": ["tv", "mecha", "drama"],
+    "desc": "وصف مختصر لـBokurano — مجموعة أطفال تُجبر على قيادة روبوت ينقذ العالم مقابل حياتهم."
+  },
+  {
+    "id": 292,
+    "title": "Blue Submarine No.6",
+    "tags": ["ova", "sci-fi", "action"],
+    "desc": "وصف مختصر لـBlue Submarine No.6 — قتال بحري ضد مخلوقات هجينة تهدد البشرية."
+  },
+  {
+    "id": 293,
+    "title": "Vivy: Fluorite Eye's Song",
+    "tags": ["tv", "sci-fi", "music"],
+    "desc": "وصف مختصر لـVivy — مغنية أندرويد تقاتل لتغيير مصير البشرية."
+  },
+  {
+    "id": 294,
+    "title": "Wonder Egg Priority",
+    "tags": ["tv", "drama", "psychological"],
+    "desc": "وصف مختصر لـWonder Egg Priority — فتاة تواجه مخاوفها داخل عالم الأحلام لإنقاذ صديقتها."
+  },
+  {
+    "id": 295,
+    "title": "ID: INVADED",
+    "tags": ["tv", "mystery", "sci-fi"],
+    "desc": "وصف مختصر لـID: INVADED — محقق يدخل عقول القتلة لحل الجرائم الغامضة."
+  },
+  {
+    "id": 296,
+    "title": "Akudama Drive",
+    "tags": ["tv", "sci-fi", "action"],
+    "desc": "وصف مختصر لـAkudama Drive — مجرمون خارقون يواجهون نظامًا قاسيًا في مدينة مستقبلية."
+  },
+  {
+    "id": 297,
+    "title": "Deca-Dence",
+    "tags": ["tv", "sci-fi", "action"],
+    "desc": "وصف مختصر لـDeca-Dence — بشر يعيشون في حصن متحرك لمحاربة وحوش ضخمة."
+  },
+  {
+    "id": 298,
+    "title": "God Eater",
+    "tags": ["tv", "sci-fi", "action"],
+    "desc": "وصف مختصر لـGod Eater — صيادون مسلحون يواجهون مخلوقات الأراغامي المدمرة."
+  },
+  {
+    "id": 299,
+    "title": "C: The Money of Soul and Possibility Control",
+    "tags": ["tv", "mystery", "sci-fi"],
+    "desc": "وصف مختصر لـC — طالب جامعي يدخل إلى عالم اقتصادي سري مليء بالمخاطر."
+  },
+  {
+    "id": 300,
+    "title": "Zankyou no Terror",
+    "tags": ["tv", "mystery", "thriller"],
+    "desc": "وصف مختصر لـZankyou no Terror — إرهابيان غامضان يشنان هجمات لكشف سر الدولة."
+  },
+  {
+    "id": 301,
+    "title": "Terror in Resonance",
+    "tags": ["tv", "thriller", "mystery"],
+    "desc": "وصف مختصر لـTerror in Resonance — لغز إرهابيين عباقرة يربك طوكيو."
+  },
+  {
+    "id": 302,
+    "title": "Akame ga Kill!",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـAkame ga Kill! — ثوار يواجهون إمبراطورية فاسدة بقدرات أسطورية."
+  },
+  {
+    "id": 303,
+    "title": "Kill la Kill",
+    "tags": ["tv", "action", "comedy"],
+    "desc": "وصف مختصر لـKill la Kill — فتاة تحمل مقصًا عملاقًا تبحث عن قاتل والدها."
+  },
+  {
+    "id": 304,
+    "title": "Space Dandy",
+    "tags": ["tv", "sci-fi", "comedy"],
+    "desc": "وصف مختصر لـSpace Dandy — صائد كائنات فضائية يخوض مغامرات مضحكة عبر الكون."
+  },
+  {
+    "id": 305,
+    "title": "Blood Blockade Battlefront",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـBlood Blockade Battlefront — مدينة مليئة بالكائنات الخارقة والحروب الخفية."
+  },
+  {
+    "id": 306,
+    "title": "Kekkai Sensen",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـKekkai Sensen — صحفي ينضم إلى منظمة سرية تحمي التوازن بين العوالم."
+  },
+  {
+    "id": 307,
+    "title": "Baccano!",
+    "tags": ["tv", "action", "mystery"],
+    "desc": "وصف مختصر لـBaccano! — قصة فوضوية مليئة بالخلود، المافيا، والقطارات السريعة."
+  },
+  {
+    "id": 308,
+    "title": "Durarara!!",
+    "tags": ["tv", "action", "mystery"],
+    "desc": "وصف مختصر لـDurarara!! — طوكيو تمتلئ بالأساطير الحضرية والعصابات الغامضة."
+  },
+  {
+    "id": 309,
+    "title": "91 Days",
+    "tags": ["tv", "drama", "crime"],
+    "desc": "وصف مختصر لـ91 Days — رجل يسعى للانتقام من المافيا خلال فترة الحظر."
+  },
+  {
+    "id": 310,
+    "title": "Banana Fish",
+    "tags": ["tv", "drama", "crime"],
+    "desc": "وصف مختصر لـBanana Fish — صراع عصابات نيويورك يقوده شاب عبقري."
+  },
+  {
+    "id": 311,
+    "title": "Rainbow: Nisha Rokubou no Shichinin",
+    "tags": ["tv", "drama", "historical"],
+    "desc": "وصف مختصر لـRainbow — سبعة شباب في إصلاحية يواجهون القسوة والأمل."
+  },
+  {
+    "id": 312,
+    "title": "Monster",
+    "tags": ["tv", "thriller", "mystery"],
+    "desc": "وصف مختصر لـMonster — طبيب يطارد ماضيه المظلم بعدما أنقذ حياة قاتل."
+  },
+  {
+    "id": 313,
+    "title": "Paranoia Agent",
+    "tags": ["tv", "psychological", "mystery"],
+    "desc": "وصف مختصر لـParanoia Agent — هجوم غامض من صبي بمضرب يربك المجتمع."
+  },
+  {
+    "id": 314,
+    "title": "Higurashi no Naku Koro ni",
+    "tags": ["tv", "horror", "mystery"],
+    "desc": "وصف مختصر لـHigurashi — بلدة ريفية هادئة تخفي جرائم وأسرار مرعبة."
+  },
+  {
+    "id": 315,
+    "title": "Umineko no Naku Koro ni",
+    "tags": ["tv", "mystery", "supernatural"],
+    "desc": "وصف مختصر لـUmineko — جزيرة معزولة تتحول إلى مسرح لجرائم غامضة."
+  },
+  {
+    "id": 316,
+    "title": "Another",
+    "tags": ["tv", "horror", "mystery"],
+    "desc": "وصف مختصر لـAnother — لعنة صف دراسي تؤدي إلى سلسلة وفيات غامضة."
+  },
+  {
+    "id": 317,
+    "title": "Elfen Lied",
+    "tags": ["tv", "horror", "drama"],
+    "desc": "وصف مختصر لـElfen Lied — فتاة تمتلك قوى قاتلة تهرب من مختبر حكومي."
+  },
+  {
+    "id": 318,
+    "title": "School Days",
+    "tags": ["tv", "drama", "romance"],
+    "desc": "وصف مختصر لـSchool Days — مثلث حب يتحول إلى مأساة غير متوقعة."
+  },
+  {
+    "id": 319,
+    "title": "Future Diary",
+    "tags": ["tv", "thriller", "supernatural"],
+    "desc": "وصف مختصر لـFuture Diary — مذكرات تتنبأ بالمستقبل في لعبة موت قاتلة."
+  },
+  {
+    "id": 320,
+    "title": "Deadman Wonderland",
+    "tags": ["tv", "action", "thriller"],
+    "desc": "وصف مختصر لـDeadman Wonderland — سجن دموي حيث يستخدم النزلاء قواهم للبقاء."
+  },
+  {
+    "id": 321,
+    "title": "Danganronpa: The Animation",
+    "tags": ["tv", "mystery", "thriller"],
+    "desc": "وصف مختصر لـDanganronpa — طلاب محاصرون يُجبرون على قتل بعضهم للنجاة."
+  },
+  {
+    "id": 322,
+    "title": "Zetsuen no Tempest",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـZetsuen no Tempest — مراهقان ينجران إلى صراع سحري عالمي."
+  },
+  {
+    "id": 323,
+    "title": "Blast of Tempest",
+    "tags": ["tv", "fantasy", "drama"],
+    "desc": "وصف مختصر لـBlast of Tempest — مزيج بين الشكسبيرية والخيال المظلم."
+  },
+  {
+    "id": 324,
+    "title": "Noragami",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـNoragami — إله مجهول يسعى للشهرة عبر إنقاذ البشر."
+  },
+  {
+    "id": 325,
+    "title": "Noragami Aragoto",
+    "tags": ["tv", "supernatural", "drama"],
+    "desc": "وصف مختصر لـNoragami Aragoto — صراعات الآلهة تكشف ماضي ياتو الغامض."
+  },
+  {
+    "id": 326,
+    "title": "Ao no Exorcist",
+    "tags": ["tv", "action", "supernatural"],
+    "desc": "وصف مختصر لـAo no Exorcist — ابن الشيطان يقاتل قوى الظلام ليحمي البشر."
+  },
+  {
+    "id": 327,
+    "title": "Blue Exorcist: Kyoto Saga",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـBlue Exorcist Kyoto Saga — مواجهة شرسة ضد تهديد شيطاني قديم."
+  },
+  {
+    "id": 328,
+    "title": "Yona of the Dawn",
+    "tags": ["tv", "adventure", "fantasy"],
+    "desc": "وصف مختصر لـYona of the Dawn — أميرة منفية تبحث عن التنين الأسطوري لاستعادة مملكتها."
+  },
+  {
+    "id": 329,
+    "title": "Akatsuki no Yona",
+    "tags": ["tv", "fantasy", "romance"],
+    "desc": "وصف مختصر لـAkatsuki no Yona — رحلة شجاعة للنجاة والحب وسط الحروب."
+  },
+  {
+    "id": 330,
+    "title": "Magi: The Labyrinth of Magic",
+    "tags": ["tv", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـMagi — صبي غامض يستكشف متاهات سحرية ويقابل أصدقاء أسطوريين."
+  },
+  {
+    "id": 331,
+    "title": "Magi: The Kingdom of Magic",
+    "tags": ["tv", "fantasy", "action"],
+    "desc": "وصف مختصر لـMagi Kingdom of Magic — صراعات سحرية تحدد مصير العالم."
+  },
+  {
+    "id": 332,
+    "title": "Magi: Adventure of Sinbad",
+    "tags": ["ova", "adventure", "fantasy"],
+    "desc": "وصف مختصر لـMagi Adventure of Sinbad — قصة صعود القرصان الأسطوري سندباد."
+  },
+  {
+    "id": 333,
+    "title": "Rokka no Yuusha",
+    "tags": ["tv", "mystery", "fantasy"],
+    "desc": "وصف مختصر لـRokka no Yuusha — أبطال مختارون يواجهون خيانة غامضة بينهم."
+  },
+  {
+    "id": 334,
+    "title": "Granblue Fantasy: The Animation",
+    "tags": ["tv", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـGranblue Fantasy — مغامرة سماوية مع التنانين والأصدقاء."
+  },
+  {
+    "id": 335,
+    "title": "Tales of Zestiria the X",
+    "tags": ["tv", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـTales of Zestiria — بطل ينقذ العالم من الظلام كـ راعي أسطوري."
+  },
+  {
+    "id": 336,
+    "title": "Tales of Symphonia",
+    "tags": ["ova", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـTales of Symphonia — مغامرة كلاسيكية لإنقاذ عالمين من الدمار."
+  },
+  {
+    "id": 337,
+    "title": "Tales of Eternia",
+    "tags": ["tv", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـTales of Eternia — رحلة لمنع تصادم عالمين متوازيين."
+  },
+  {
+    "id": 338,
+    "title": "Tales of the Abyss",
+    "tags": ["tv", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـTales of the Abyss — أمير مدلل يتغير خلال مغامرة خطيرة."
+  },
+  {
+    "id": 339,
+    "title": "Arslan Senki",
+    "tags": ["tv", "historical", "fantasy"],
+    "desc": "وصف مختصر لـArslan Senki — أمير منفي يقود جيشًا لاستعادة عرشه."
+  },
+  {
+    "id": 340,
+    "title": "Arslan Senki: Fuujin Ranbu",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـArslan Senki Fuujin Ranbu — استمرار معارك الأمير أرزلان لاسترجاع المملكة."
+  },
+  {
+    "id": 341,
+    "title": "Seirei no Moribito",
+    "tags": ["tv", "fantasy", "action"],
+    "desc": "وصف مختصر لـSeirei no Moribito — محاربة توكل بحماية أمير مطارد."
+  },
+  {
+    "id": 342,
+    "title": "Moribito: Guardian of the Spirit",
+    "tags": ["tv", "adventure", "fantasy"],
+    "desc": "وصف مختصر لـMoribito — قصة وفاء وشرف وسط مؤامرات الممالك."
+  },
+  {
+    "id": 343,
+    "title": "Kemono no Souja Erin",
+    "tags": ["tv", "drama", "fantasy"],
+    "desc": "وصف مختصر لـErin — فتاة تفهم قلوب الوحوش وتغيّر قدر أمة."
+  },
+  {
+    "id": 344,
+    "title": "Shinsekai Yori",
+    "tags": ["tv", "sci-fi", "drama"],
+    "desc": "وصف مختصر لـShinsekai Yori — مجتمع مستقبلي يخفي أسرارًا عن قواه النفسية."
+  },
+  {
+    "id": 345,
+    "title": "Alderamin on the Sky",
+    "tags": ["tv", "fantasy", "military"],
+    "desc": "وصف مختصر لـAlderamin — عبقري كسول يصبح قائدا عسكريًا بارزًا."
+  },
+  {
+    "id": 346,
+    "title": "Grimgar: Ashes and Illusions",
+    "tags": ["tv", "fantasy", "drama"],
+    "desc": "وصف مختصر لـGrimgar — مغامرة مليئة بالمشاعر عن البقاء في عالم قاسٍ."
+  },
+  {
+    "id": 347,
+    "title": "Hai to Gensou no Grimgar",
+    "tags": ["tv", "adventure", "fantasy"],
+    "desc": "وصف مختصر لـHai to Gensou no Grimgar — رحلة أصدقاء لبناء معنى في عالم جديد."
+  },
+  {
+    "id": 348,
+    "title": "Garo: The Animation",
+    "tags": ["tv", "fantasy", "action"],
+    "desc": "وصف مختصر لـGaro — فارس ذهبي يقاتل وحوش الظلام لإنقاذ البشر."
+  },
+  {
+    "id": 349,
+    "title": "Garo: Honoo no Kokuin",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـGaro Honoo no Kokuin — قصة مأساوية عن الوراثة والانتقام."
+  },
+  {
+    "id": 350,
+    "title": "Garo: Crimson Moon",
+    "tags": ["tv", "fantasy", "supernatural"],
+    "desc": "وصف مختصر لـGaro Crimson Moon — محاربون أسطوريون ضد قوى الشر في اليابان القديمة."
+  },
+   {
+    "id": 351,
+    "title": "Katanagatari",
+    "tags": ["tv", "action", "romance"],
+    "desc": "وصف مختصر لـKatanagatari — رحلة لجمع 12 سيفًا أسطوريًا مع لمسة رومانسية."
+  },
+  {
+    "id": 352,
+    "title": "Samurai Champloo",
+    "tags": ["tv", "action", "historical"],
+    "desc": "وصف مختصر لـSamurai Champloo — رحلة ممتعة تجمع بين الساموراي والهيب هوب."
+  },
+  {
+    "id": 353,
+    "title": "Afro Samurai",
+    "tags": ["tv", "action", "samurai"],
+    "desc": "وصف مختصر لـAfro Samurai — محارب يسعى للانتقام في عالم مليء بالعنف."
+  },
+  {
+    "id": 354,
+    "title": "Afro Samurai: Resurrection",
+    "tags": ["movie", "action", "samurai"],
+    "desc": "وصف مختصر لـAfro Samurai Resurrection — فيلم يكمل قصة الانتقام الدموية."
+  },
+  {
+    "id": 355,
+    "title": "Basilisk",
+    "tags": ["tv", "action", "historical"],
+    "desc": "وصف مختصر لـBasilisk — عشيرتان نينجا تخوضان حربًا دموية لأجل السلطة."
+  },
+  {
+    "id": 356,
+    "title": "Basilisk: Ouka Ninpouchou",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـBasilisk Ouka — تكملة للصراع بين عشائر النينجا."
+  },
+  {
+    "id": 357,
+    "title": "Sword of the Stranger",
+    "tags": ["movie", "action", "samurai"],
+    "desc": "وصف مختصر لـSword of the Stranger — ساموراي غامض يحمي صبيًا من مطاردين."
+  },
+  {
+    "id": 358,
+    "title": "House of Five Leaves",
+    "tags": ["tv", "historical", "drama"],
+    "desc": "وصف مختصر لـHouse of Five Leaves — ساموراي ضعيف يجد نفسه في عصابة غامضة."
+  },
+  {
+    "id": 359,
+    "title": "Shigurui",
+    "tags": ["tv", "action", "samurai"],
+    "desc": "وصف مختصر لـShigurui — بطولة قاتمة عن الساموراي المهووسين بالقتال."
+  },
+  {
+    "id": 360,
+    "title": "Drifters",
+    "tags": ["tv", "action", "fantasy"],
+    "desc": "وصف مختصر لـDrifters — محاربون تاريخيون يُستدعون إلى عالم آخر للقتال."
+  },
+  {
+    "id": 361,
+    "title": "Sengoku Basara",
+    "tags": ["tv", "action", "historical"],
+    "desc": "وصف مختصر لـSengoku Basara — نسخة ملحمية من فترة الساموراي في اليابان."
+  },
+  {
+    "id": 362,
+    "title": "Sengoku Basara: Judge End",
+    "tags": ["tv", "action", "historical"],
+    "desc": "وصف مختصر لـSengoku Basara Judge End — استمرار الحرب الملحمية بين القادة."
+  },
+  {
+    "id": 363,
+    "title": "Hakuouki",
+    "tags": ["tv", "historical", "romance"],
+    "desc": "وصف مختصر لـHakuouki — قصة شينسنغومي ورومانسية وسط الحرب."
+  },
+  {
+    "id": 364,
+    "title": "Hakuouki Hekketsuroku",
+    "tags": ["tv", "historical", "drama"],
+    "desc": "وصف مختصر لـHakuouki Hekketsuroku — تكملة دامية لأحداث الشينسنغومي."
+  },
+  {
+    "id": 365,
+    "title": "Golden Kamuy",
+    "tags": ["tv", "action", "historical"],
+    "desc": "وصف مختصر لـGolden Kamuy — جندي سابق يبحث عن ذهب مخفي في هوكايدو."
+  },
+  {
+    "id": 366,
+    "title": "Golden Kamuy 2nd Season",
+    "tags": ["tv", "action", "historical"],
+    "desc": "وصف مختصر لـGolden Kamuy Season 2 — المزيد من البحث عن الذهب وسط الخيانة."
+  },
+  {
+    "id": 367,
+    "title": "Golden Kamuy 3rd Season",
+    "tags": ["tv", "action", "historical"],
+    "desc": "وصف مختصر لـGolden Kamuy Season 3 — مغامرة أكثر خطورة في الشمال."
+  },
+  {
+    "id": 368,
+    "title": "Golden Kamuy 4th Season",
+    "tags": ["tv", "action", "historical"],
+    "desc": "وصف مختصر لـGolden Kamuy Season 4 — استمرار القتال على الذهب الملعون."
+  },
+  {
+    "id": 369,
+    "title": "91 Days",
+    "tags": ["tv", "drama", "crime"],
+    "desc": "وصف مختصر لـ91 Days — رجل يسعى للانتقام من عائلة مافيا في فترة الحظر."
+  },
+  {
+    "id": 370,
+    "title": "Baccano!",
+    "tags": ["tv", "action", "mystery"],
+    "desc": "وصف مختصر لـBaccano! — سلسلة فوضوية تربط عدة قصص في فترة العشرينات."
+  },
+  {
+    "id": 371,
+    "title": "Durarara!!",
+    "tags": ["tv", "mystery", "action"],
+    "desc": "وصف مختصر لـDurarara!! — عصابات وأساطير حضرية في شوارع إيكبوكورو."
+  },
+  {
+    "id": 372,
+    "title": "Durarara!!x2 Shou",
+    "tags": ["tv", "mystery", "action"],
+    "desc": "وصف مختصر لـDurarara!!x2 Shou — استمرار صراعات إيكبوكورو المعقدة."
+  },
+  {
+    "id": 373,
+    "title": "Durarara!!x2 Ten",
+    "tags": ["tv", "mystery", "action"],
+    "desc": "وصف مختصر لـDurarara!!x2 Ten — المزيد من الفوضى والعصابات في المدينة."
+  },
+  {
+    "id": 374,
+    "title": "Durarara!!x2 Ketsu",
+    "tags": ["tv", "mystery", "action"],
+    "desc": "وصف مختصر لـDurarara!!x2 Ketsu — الخاتمة الملحمية لصراعات العصابات والأساطير."
+  },
+  {
+    "id": 375,
+    "title": "Kino no Tabi: The Beautiful World",
+    "tags": ["tv", "adventure", "philosophy"],
+    "desc": "وصف مختصر لـKino no Tabi — مسافر يستكشف عوالم غريبة مليئة بالأفكار."
+  },
+  {
+    "id": 376,
+    "title": "Kino no Tabi (2017)",
+    "tags": ["tv", "adventure", "philosophy"],
+    "desc": "وصف مختصر لـKino no Tabi 2017 — إعادة سرد حديثة لرحلة كينو وفلسفتها."
+  },
+  {
+    "id": 377,
+    "title": "Mushishi",
+    "tags": ["tv", "supernatural", "drama"],
+    "desc": "وصف مختصر لـMushishi — مغامرات غينكو مع الكائنات الغامضة المسماة موشي."
+  },
+  {
+    "id": 378,
+    "title": "Mushishi Zoku Shou",
+    "tags": ["tv", "supernatural", "drama"],
+    "desc": "وصف مختصر لـMushishi Zoku Shou — تكملة قصص غينكو مع الأرواح الطبيعية."
+  },
+  {
+    "id": 379,
+    "title": "Mushishi Zoku Shou: Suzu no Shizuku",
+    "tags": ["movie", "supernatural", "drama"],
+    "desc": "وصف مختصر لـMushishi Suzu no Shizuku — فيلم هادئ مليء بالجمال الروحي."
+  },
+  {
+    "id": 380,
+    "title": "Natsume Yuujinchou",
+    "tags": ["tv", "supernatural", "slice of life"],
+    "desc": "وصف مختصر لـNatsume Yuujinchou — صبي يرى الأرواح ويحاول مساعدتها."
+  },
+  {
+    "id": 381,
+    "title": "Natsume Yuujinchou Shi",
+    "tags": ["tv", "supernatural", "drama"],
+    "desc": "وصف مختصر لـNatsume Yuujinchou Shi — مواسم جديدة مع المزيد من قصص الأرواح."
+  },
+  {
+    "id": 382,
+    "title": "Hotarubi no Mori e",
+    "tags": ["movie", "romance", "supernatural"],
+    "desc": "وصف مختصر لـHotarubi no Mori e — فيلم قصير عن فتاة تقع في حب روح غامضة."
+  },
+  {
+    "id": 383,
+    "title": "Spirited Away",
+    "tags": ["movie", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـSpirited Away — فتاة ضائعة في عالم الأرواح تحاول إنقاذ والديها."
+  },
+  {
+    "id": 384,
+    "title": "Princess Mononoke",
+    "tags": ["movie", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـPrincess Mononoke — صراع بين الطبيعة والبشر في قصة أسطورية."
+  },
+  {
+    "id": 385,
+    "title": "Howl’s Moving Castle",
+    "tags": ["movie", "fantasy", "romance"],
+    "desc": "وصف مختصر لـHowl’s Moving Castle — فتاة مسحورة تعيش مغامرة رومانسية في قلعة سحرية."
+  },
+  {
+    "id": 386,
+    "title": "Laputa: Castle in the Sky",
+    "tags": ["movie", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـLaputa — مغامرة أسطورية للعثور على قلعة عائمة."
+  },
+  {
+    "id": 387,
+    "title": "Nausicaä of the Valley of the Wind",
+    "tags": ["movie", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـNausicaä — أميرة تحاول إنقاذ الأرض من كارثة بيئية."
+  },
+  {
+    "id": 388,
+    "title": "The Wind Rises",
+    "tags": ["movie", "historical", "drama"],
+    "desc": "وصف مختصر لـThe Wind Rises — قصة مهندس طائرات يحلم بالطيران."
+  },
+  {
+    "id": 389,
+    "title": "Kiki’s Delivery Service",
+    "tags": ["movie", "fantasy", "slice of life"],
+    "desc": "وصف مختصر لـKiki’s Delivery Service — ساحرة صغيرة تبدأ عملها الخاص."
+  },
+  {
+    "id": 390,
+    "title": "My Neighbor Totoro",
+    "tags": ["movie", "fantasy", "family"],
+    "desc": "وصف مختصر لـMy Neighbor Totoro — فتاتان تلتقيان بمخلوق غامض في الريف."
+  },
+  {
+    "id": 391,
+    "title": "Ponyo",
+    "tags": ["movie", "fantasy", "family"],
+    "desc": "وصف مختصر لـPonyo — سمكة صغيرة تتحول إلى فتاة وتعيش مغامرة."
+  },
+  {
+    "id": 392,
+    "title": "The Tale of the Princess Kaguya",
+    "tags": ["movie", "fantasy", "drama"],
+    "desc": "وصف مختصر لـPrincess Kaguya — أسطورة يابانية تُروى برسوم فنية مذهلة."
+  },
+  {
+    "id": 393,
+    "title": "When Marnie Was There",
+    "tags": ["movie", "drama", "mystery"],
+    "desc": "وصف مختصر لـWhen Marnie Was There — قصة صداقة غامضة تغير حياة فتاة."
+  },
+  {
+    "id": 394,
+    "title": "Whisper of the Heart",
+    "tags": ["movie", "romance", "drama"],
+    "desc": "وصف مختصر لـWhisper of the Heart — فتاة تكتشف شغفها بالكتابة والحب."
+  },
+  {
+    "id": 395,
+    "title": "The Cat Returns",
+    "tags": ["movie", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـThe Cat Returns — فتاة تُسحب إلى عالم القطط السحري."
+  },
+  {
+    "id": 396,
+    "title": "From Up on Poppy Hill",
+    "tags": ["movie", "romance", "historical"],
+    "desc": "وصف مختصر لـFrom Up on Poppy Hill — طلاب يناضلون لحماية نادي مدرستهم."
+  },
+  {
+    "id": 397,
+    "title": "Arrietty",
+    "tags": ["movie", "fantasy", "family"],
+    "desc": "وصف مختصر لـArrietty — قصة صغيرة عن كائنات تعيش خفية في المنازل."
+  },
+  {
+    "id": 398,
+    "title": "Ocean Waves",
+    "tags": ["movie", "romance", "drama"],
+    "desc": "وصف مختصر لـOcean Waves — رومانسية شبابية هادئة مليئة بالمشاعر."
+  },
+  {
+    "id": 399,
+    "title": "The Red Turtle",
+    "tags": ["movie", "fantasy", "drama"],
+    "desc": "وصف مختصر لـThe Red Turtle — فيلم صامت عن رجل عالق في جزيرة."
+  },
+  {
+    "id": 400,
+    "title": "Children Who Chase Lost Voices",
+    "tags": ["movie", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـChildren Who Chase Lost Voices — رحلة إلى عالم سفلي غامض."
+  },
+  {
+    "id": 401,
+    "title": "The Garden of Words",
+    "tags": ["movie", "romance", "drama"],
+    "desc": "وصف مختصر لـThe Garden of Words — لقاء غير متوقع يغير حياة شاب ومعلمة."
+  },
+  {
+    "id": 402,
+    "title": "5 Centimeters Per Second",
+    "tags": ["movie", "romance", "drama"],
+    "desc": "وصف مختصر لـ5 Centimeters Per Second — قصة حب حزينة تُروى عبر الزمن."
+  },
+  {
+    "id": 403,
+    "title": "Your Name",
+    "tags": ["movie", "romance", "fantasy"],
+    "desc": "وصف مختصر لـYour Name — تبادل أجساد غامض يربط بين شابين."
+  },
+  {
+    "id": 404,
+    "title": "Weathering With You",
+    "tags": ["movie", "romance", "fantasy"],
+    "desc": "وصف مختصر لـWeathering With You — علاقة بين فتى وفتاة تتحكم بالطقس."
+  },
+  {
+    "id": 405,
+    "title": "Suzume no Tojimari",
+    "tags": ["movie", "fantasy", "adventure"],
+    "desc": "وصف مختصر لـSuzume — فتاة تغلق أبواب الكوارث في رحلة عبر اليابان."
+  },
+  {
+    "id": 406,
+    "title": "A Silent Voice",
+    "tags": ["movie", "drama", "romance"],
+    "desc": "وصف مختصر لـA Silent Voice — قصة فتى يتوب بعد تنمره على فتاة صماء."
+  },
+  {
+    "id": 407,
+    "title": "Anohana: The Flower We Saw That Day",
+    "tags": ["tv", "drama", "supernatural"],
+    "desc": "وصف مختصر لـAnohana — مجموعة أصدقاء يواجهون شبح صديقتهم الراحلة."
+  },
+  {
+    "id": 408,
+    "title": "Anohana Movie",
+    "tags": ["movie", "drama", "supernatural"],
+    "desc": "وصف مختصر لـAnohana Movie — إعادة سرد من منظور مختلف للقصة المؤثرة."
+  },
+  {
+    "id": 409,
+    "title": "Orange",
+    "tags": ["tv", "drama", "romance"],
+    "desc": "وصف مختصر لـOrange — فتاة تتلقى رسائل من مستقبلها لإنقاذ زميلها."
+  },
+  {
+    "id": 410,
+    "title": "Erased",
+    "tags": ["tv", "thriller", "drama"],
+    "desc": "وصف مختصر لـErased — رجل يعود بالزمن لإنقاذ حياة زملائه في الطفولة."
+  },
+  {
+    "id": 411,
+    "title": "ReLIFE",
+    "tags": ["tv", "drama", "romance"],
+    "desc": "وصف مختصر لـReLIFE — رجل يُمنح فرصة للعودة إلى أيام المدرسة."
+  },
+  {
+    "id": 412,
+    "title": "Tsuki ga Kirei",
+    "tags": ["tv", "romance", "slice of life"],
+    "desc": "وصف مختصر لـTsuki ga Kirei — قصة حب واقعية بين مراهقين."
+  },
+  {
+    "id": 413,
+    "title": "Your Lie in April",
+    "tags": ["tv", "drama", "romance"],
+    "desc": "وصف مختصر لـYour Lie in April — عازف بيانو يكتشف الحياة والحب عبر فتاة."
+  },
+  {
+    "id": 414,
+    "title": "March Comes in Like a Lion",
+    "tags": ["tv", "drama", "slice of life"],
+    "desc": "وصف مختصر لـMarch Comes in Like a Lion — لاعب شوغي يعاني من الوحدة والاكتئاب."
+  },
+  {
+    "id": 415,
+    "title": "March Comes in Like a Lion 2nd Season",
+    "tags": ["tv", "drama", "slice of life"],
+    "desc": "وصف مختصر لـMarch Comes in Like a Lion 2 — استمرار قصة الشوغي والنضوج."
+  },
+  {
+    "id": 416,
+    "title": "Barakamon",
+    "tags": ["tv", "slice of life", "comedy"],
+    "desc": "وصف مختصر لـBarakamon — خطاط ينتقل لقرية صغيرة ليكتشف معنى الفن."
+  },
+  {
+    "id": 417,
+    "title": "Handa-kun",
+    "tags": ["tv", "comedy", "slice of life"],
+    "desc": "وصف مختصر لـHanda-kun — قصة مضحكة عن حياة الخطاط هاندا قبل Barakamon."
+  },
+  {
+    "id": 418,
+    "title": "Silver Spoon",
+    "tags": ["tv", "slice of life", "comedy"],
+    "desc": "وصف مختصر لـSilver Spoon — طالب ينتقل لمدرسة زراعية ويتعلم حياة الريف."
+  },
+  {
+    "id": 419,
+    "title": "Silver Spoon 2nd Season",
+    "tags": ["tv", "slice of life", "comedy"],
+    "desc": "وصف مختصر لـSilver Spoon Season 2 — المزيد من مغامرات المدرسة الزراعية."
+  },
+  {
+    "id": 420,
+    "title": "Non Non Biyori",
+    "tags": ["tv", "slice of life", "comedy"],
+    "desc": "وصف مختصر لـNon Non Biyori — حياة هادئة لطالبات في قرية ريفية."
+  },
+  {
+    "id": 421,
+    "title": "Non Non Biyori Repeat",
+    "tags": ["tv", "slice of life", "comedy"],
+    "desc": "وصف مختصر لـNon Non Biyori Repeat — المزيد من الأوقات الريفية المليئة بالمرح."
+  },
+  {
+    "id": 422,
+    "title": "Non Non Biyori Movie: Vacation",
+    "tags": ["movie", "slice of life", "comedy"],
+    "desc": "وصف مختصر لـNon Non Biyori Vacation — مغامرة صيفية لطالبات القرية."
+  },
+  {
+    "id": 423,
+    "title": "Clannad",
+    "tags": ["tv", "romance", "drama"],
+    "desc": "وصف مختصر لـClannad — قصة حب وصداقة مليئة بالمشاعر في المدرسة."
+  },
+  {
+    "id": 424,
+    "title": "Clannad: After Story",
+    "tags": ["tv", "romance", "drama"],
+    "desc": "وصف مختصر لـClannad After Story — استمرار قصة توميّو وناغيسا بعد التخرج."
+  },
+  {
+    "id": 425,
+    "title": "Angel Beats!",
+    "tags": ["tv", "action", "drama"],
+    "desc": "وصف مختصر لـAngel Beats! — طلاب عالقون بين الحياة والموت يحاربون مصيرهم."
+  }
+  
+  
+]

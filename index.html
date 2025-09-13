@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIME</title>
+    <meta name="google-site-verification" content="google40cd8c4f509ca7da" />
+
+    <style>
+        body {
+            background:
+                radial-gradient(1200px 600px at 10% 10%, rgba(123, 97, 255, 0.06), transparent),
+                radial-gradient(800px 400px at 90% 90%, rgba(255, 107, 107, 0.04), transparent),
+                #0b1020;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .hambox {
+            width: 90%;
+            max-width: 300px;
+            height: 300px;
+            display: grid;
+            place-items: center;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .hambtn {
+            background: rgba(255, 255, 255, 0.04);
+            width: 56px;
+            height: 56px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            text-decoration: none;
+        }
+
+        .bar {
+            width: 26px;
+            height: 3px;
+            background: #e6eef8;
+            border-radius: 3px;
+            position: relative;
+            transition: all 0.45s ease;
+        }
+
+        .bar::before,
+        .bar::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 26px;
+            height: 3px;
+            border-radius: 3px;
+            background: #e6eef8;
+            transition: all 0.45s ease;
+        }
+
+        .bar::before {
+            top: -8px;
+        }
+
+        .bar::after {
+            top: 8px;
+        }
+
+        .hambtn.open .bar {
+            transform: scaleX(.0001);
+            opacity: 0;
+        }
+
+        /* nodes */
+        .radial {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            display: grid;
+            place-items: center;
+            z-index: 10;
+        }
+
+        .radial .node {
+            position: absolute;
+            width: 52px;
+            height: 52px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #ff6b6b, #7b61ff);
+            display: grid;
+            place-items: center;
+            font-weight: 700;
+            cursor: pointer;
+            transform: scale(.001);
+            opacity: 0;
+            transition: all .45s cubic-bezier(.2, .9, .2, 1);
+            pointer-events: auto;
+            text-decoration: none;
+        }
+
+        .radial .node span {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        /* node positions */
+        .node.n1 {
+            --x: 0;
+            --y: -120px;
+        }
+
+        .node.n2 {
+            --x: 84px;
+            --y: -84px;
+        }
+
+        .node.n3 {
+            --x: 120px;
+            --y: 0;
+        }
+
+        .node.n4 {
+            --x: 84px;
+            --y: 84px;
+        }
+
+        .node.n5 {
+            --x: 0;
+            --y: 120px;
+        }
+
+        .node.n6 {
+            --x: -84px;
+            --y: 84px;
+        }
+
+        .node.n7 {
+            --x: -120px;
+            --y: 0;
+        }
+
+        .node.n8 {
+            --x: -84px;
+            --y: -84px;
+        }
+
+        .hambtn.open~.radial .node {
+            transform: translate(var(--x), var(--y)) scale(1);
+            opacity: 1;
+        }
+
+        input {
+            padding: 10px;
+            border-radius: 12px;
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.9);
+            color: #e6eef8;
+            width: 100%;
+            margin-bottom: 12px;
+            box-shadow: 10px 5px 5px #ff6b6b;
+        }
+
+        .search-and-sing-in {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 10px;
+            flex-wrap: wrap;
+        }
+
+        .namepage {
+            display: flex;
+            justify-content: center;
+            color: #e6eef8;
+            font-size: 1.5rem;
+            padding: 15px;
+            background: linear-gradient(135deg, #ff6b6b, #7b61ff);
+            border-radius: 20px 15px 10px 5px;
+            margin: 10px;
+        }
+
+        .sing-in {
+            display: inline-block;
+            background-color: #555;
+            text-align: center;
+            padding: 10px 15px;
+            border-radius: 30px;
+            box-shadow: 10px 5px 5px #7b61ff;
+            color: white;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .sing-in:hover {
+            box-shadow: inset 0 0 15px #ff6b6b;
+        }
+
+        .box {
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+            margin: 50px auto;
+            border-radius: 15px;
+            padding: 20px;
+            color: white;
+            background-color: #555;
+            box-shadow: 4px 3px 33px #7b61ff;
+        }
+
+        .box:hover {
+            box-shadow: inset 0 0 30px #ff6b6b;
+        }
+
+        .abdullah-al-sinjilawi {
+            background-color: #555;
+            font-size: 1.2rem;
+            justify-content: center;
+            display: flex;
+            border-radius: 40px 30px;
+            box-shadow: 3px 4px 33px #ff6b6b;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        .abdullah-al-sinjilawi:hover {
+            box-shadow: inset 0 0 30px #7b61ff;
+        }
+
+        /* Media queries للجوال */
+        @media (max-width: 500px) {
+            .hambox {
+                width: 90%;
+                height: 250px;
+            }
+
+            .radial .node {
+                width: 44px;
+                height: 44px;
+                font-size: 10px;
+            }
+
+            .namepage {
+                font-size: 1.2rem;
+                padding: 10px;
+            }
+
+            .box {
+                width: 95%;
+                padding: 15px;
+                margin: 30px auto;
+            }
+
+            .abdullah-al-sinjilawi {
+                font-size: 1rem;
+                padding: 8px 0;
+            }
+        }
+
+        .add {
+            background-color: #555;
+            display: inline-block;
+            justify-content: center;
+            border-radius: 40px;
+            box-shadow: 3px 4px 33px #7b61ff;
+            font-size: x-large;
+            padding: 10px;
+        }
+
+        .addpp {
+            justify-content: center;
+            display: flex;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="namepage">ANIME</div>
+
+    <div class="search-and-sing-in">
+        <div class="input-wrapper">
+            <input type="text" id="search" placeholder="سيتم الاضافة قريبا">
+        </div>
+        <a href="sing-in-index.html" class="sing-in">sing in</a>
+    </div>
+
+    <div class="hambox">
+        <div class="hambtn" id="hamb">
+            <div class="bar"></div>
+        </div>
+        <div class="radial">
+            <div class="node n1"><a href="inttex.html"><span>الأنمي</span></a></div>
+            <div class="node n2"><a href="manga-anime.html"><span>المانجا</span></a></div>
+            <div class="node n3"><a href="chars.html"><span>الشخصيات</span></a></div>
+            <div class="node n4"><a href="taqemm.html"><span>التقيمات</span></a></div>
+            <div class="node n5"><a href="game.html"><span>الألعاب</span></a></div>
+            <div class="node n6"><a href="news.html"><span>الأخبار</span></a></div>
+            <div class="node n7"><a href="shop.html"><span>صور انمي</span></a></div>
+            <div class="node n8"><a href="msajk.html"><span>اختيار انمي عشوائي</span></a></div>
+        </div>
+    </div>
+    <div class="addpp">
+        <div class="add">
+            <a href="https://www.revenuecpmgate.com/qzaa522b?key=747214b6ff9107529b49ba9ea540d2b0">اضغط لربح منتج
+                عشواىي</a>
+        </div>
+    </div>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3386445157452087"
+        crossorigin="anonymous"></script>
+    <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-f7+5u+4t-da+6l"
+        data-ad-client="ca-pub-3386445157452087" data-ad-slot="7018662190"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+    <div class="box">
+        <p>افتح الشريط الجانبي </p>
+        <p>واختار القاىمة التي تريدها</p>
+        <p>واستمتع بالمشاهدة</p>
+        <p>استعد للرحلة</p>
+        <p>انطلق</p>
+    </div>
+
+    <div class="abdullah-al-sinjilawi">
+        <p>abdullah al sinjilawi</p>
+    </div>
+
+    <script>
+        const hamb = document.getElementById('hamb');
+        hamb.addEventListener('click', () => { hamb.classList.toggle('open'); });
+
+        document.addEventListener('click', (e) => {
+            if (!hamb.contains(e.target) && !document.querySelector('.radial').contains(e.target)) {
+                hamb.classList.remove('open');
+            }
+        });
+
+        const searchInput = document.getElementById('search');
+
+        searchInput.addEventListener('input', e => {
+            const query = e.target.value.toLowerCase();
+            // هنا يمكن ربط animeData عند تحميل الجسون لاحقاً
+            // const filtered = animeData.filter(a => a.title.toLowerCase().includes(query));
+            // renderGrid(filtered);
+        });
+    </script>
+</body>
+
+</html>
